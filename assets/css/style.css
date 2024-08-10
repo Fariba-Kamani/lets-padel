@@ -29,8 +29,19 @@ header {
     width: 100%;
 }
 
+/* Remove the underlying styling and blue color of links in the header */
+header a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
+    font-size: 125%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(250, 250, 243);
 }
 
 /* Main content */
