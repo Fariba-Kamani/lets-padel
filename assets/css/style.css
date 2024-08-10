@@ -27,6 +27,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* Remove the underlying styling and blue color of links in the header */
@@ -38,7 +41,7 @@ header a {
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 125%;
+    font-size: 135%;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(250, 250, 243);
@@ -51,10 +54,11 @@ h1 {
 }
 
 /* Add more space between the lines in the navigation menu*/
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 
 }
+
 /*Give a visual cue to the active page*/
 .active-page {
     border-bottom: 2px solid white;
@@ -70,6 +74,23 @@ nav {
     padding-left: 1rem;
     /* Navbar is hidden untill it's clicked to open*/
     display: none;
+    /* Top of nav menu should start at bottom of the parent(header element)*/
+    top: 100%;
+}
+
+/* Nav-toggle function*/
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+/*Hides the checkbox in the nav*/
+#nav-toggle {
+    display: none;
+
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -77,6 +98,8 @@ main {
     background-color: rgb(13, 13, 13);
     /* For main element to take all surplus space and push the footer element down*/
     flex: 1 0 auto;
+    /* Push the main down from underneath the nav with fixed position*/
+    margin-top: 38px;
 }
 
 /* Footer */
