@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
