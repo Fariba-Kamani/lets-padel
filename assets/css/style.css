@@ -44,6 +44,23 @@ h1 {
     color: rgb(250, 250, 243);
 }
 
+/* Navigation menu */
+#menu {
+    list-style-type: none;
+
+}
+
+/* Add more space between the lines in the navigation menu*/
+#menu > li {
+    margin-bottom: 1em;
+
+}
+/*Give a visual cue to the active page*/
+.active-page {
+    border-bottom: 2px solid white;
+
+}
+
 /* Main content */
 main {
     background-color: rgb(13, 13, 13);
