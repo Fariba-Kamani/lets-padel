@@ -61,6 +61,17 @@ h1 {
 
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: rgb(5, 5, 113);
+    width: 100%;
+    left: 0;
+    padding-left: 1rem;
+    /* Navbar is hidden untill it's clicked to open*/
+    display: none;
+}
+
 /* Main content */
 main {
     background-color: rgb(13, 13, 13);
