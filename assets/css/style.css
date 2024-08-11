@@ -22,11 +22,13 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(5, 5, 113);
+    background-color: rgb(73, 136, 208);
+    background: url('../images/padel-court-header.webp') no-repeat center 25% / cover;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
+    height: 141px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -68,14 +70,14 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: rgb(5, 5, 113);
+    background-color: rgba(1, 1, 21, .2);
     width: 100%;
     left: 0;
     padding-left: 1rem;
     /* Navbar is hidden untill it's clicked to open*/
     display: none;
     /* Top of nav menu should start at bottom of the parent(header element)*/
-    top: 100%;
+    top: 25%;
 }
 
 /* Nav-toggle function*/
@@ -99,7 +101,7 @@ main {
     /* For main element to take all surplus space and push the footer element down*/
     flex: 1 0 auto;
     /* Push the main down from underneath the nav with fixed position*/
-    margin-top: 38.6px;
+    margin-top: 141px;
 }
 
 /* Footer */
@@ -110,21 +112,31 @@ footer {
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /* Header */
+    header {
+        height: 150px;
+    }
     nav {
         display: block;
-        position: relative;
-        width:fit-content;
-        padding-right: 1rem;
+        width:100%;
+        padding-right: 0.5rem;
+        top: 150px;
+        left: 0;
+        background-color: rgb(5, 5, 113);
+        /* Add shadow underneath the navbar*/
+        box-shadow: 0 3px 5px rgb(117, 117, 224);
 
     }
     /* Make the nav menu items show side by side */
     #menu {
         display: flex;
+        justify-content: flex-end;
+        height: 36px;
     }
 
     /*Add space between the menu items horisontaly*/
     #menu > li {
-        padding-left: 1rem;
+        padding-right: 1.5rem;
+        font-size: 130%;
     }
 
     /* Hide the checkbox label from the nav*/
@@ -134,14 +146,14 @@ footer {
 
     /*Increase the logo size*/
     #logo {
-        font-size: 280%;
+        font-size: 300%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
     /* Main */
     main {
     /*Push the main content down after enlarging the logo*/
-    margin-top: 77.3px;
+    margin-top: 186px;
     }
     
 }
@@ -154,7 +166,7 @@ footer {
         border-bottom: 2px solid rgb(230, 191, 49);
 
     }
-    
+
     /* Add hover effect to the logo*/
     #logo:hover {
         color: rgb(230, 191, 49);
