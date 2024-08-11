@@ -106,47 +106,30 @@ main {
     margin-top: 120px;
 }
 
-#firstsection>h2 {
-    text-align: center;
-    margin: 1rem auto;
-    color: rgb(18, 128, 223)
+/* first section element */
+#firstsection {
+    text-align: left;
+}
+
+#firstsection>h2,
+#firstsection h3 {
+
+    margin: 1rem 1rem;
+    font-size: 24px;
+}
+
+#firstsection h3 {
+    margin-top: 0;
 }
 
 .reasons {
-    width: 85%;
-    border: 1px solid rgb(18, 128, 223);
-    border-radius: 10px;
-    margin: 1rem 7.5%;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
-#firstsection p {
-    text-align: center;
-    padding-top: 1rem;
-}
-
-.conclusion {
-    text-align: center;
-    font-weight: bold;
+.reasons i {
     color: rgb(18, 128, 223);
 }
-
-
-/*
-#reasons > h2 {
-    text-align: center;
-    margin-top: 1rem;
-
-}
-
-#reasons div {
-    border: 1px solid rgb(18, 128, 223);
-    width: 90%;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-
-}
-*/
 
 /* Footer */
 footer {
