@@ -22,7 +22,6 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(73, 136, 208);
     background: url('../images/padel-court-header.webp') no-repeat center 25% / cover;
     padding: 0 1rem;
     position: fixed;
@@ -107,7 +106,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: rgb(5, 5, 113);
+    background-color: rgb(18, 128, 223);
 }
 
 #contact-ways {
@@ -138,9 +137,9 @@ footer {
         padding-right: 0.5rem;
         top: 150px;
         left: 0;
-        background-color: rgb(5, 5, 113);
+        background-color: rgb(44, 36, 155);
         /* Add shadow underneath the navbar */
-        box-shadow: 0 3px 5px rgb(117, 117, 224);
+        box-shadow: 0 3px 5px rgb(18, 128, 223);
 
     }
 
