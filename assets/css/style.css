@@ -110,6 +110,20 @@ footer {
     background-color: rgb(5, 5, 113);
 }
 
+#contact-ways {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#contact-ways i {
+    font-size: 150%;
+    padding: 5%;
+    color: white;
+}
+
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
@@ -176,6 +190,10 @@ footer {
 
     /* Add hover effect to the logo*/
     #logo:hover {
+        color: rgb(230, 191, 49);
+    }
+
+    #contact-ways i:hover {
         color: rgb(230, 191, 49);
     }
 }
