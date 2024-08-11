@@ -145,3 +145,18 @@ footer {
     }
     
 }
+
+/* Media query: tablets and larger (992px and up)*/
+@media screen and (min-width: 992px) {
+    /* Add hover effect to the nav links*/
+    #menu a:hover {
+        color: rgb(230, 191, 49);
+        border-bottom: 2px solid rgb(230, 191, 49);
+
+    }
+    
+    /* Add hover effect to the logo*/
+    #logo:hover {
+        color: rgb(230, 191, 49);
+    }
+}
