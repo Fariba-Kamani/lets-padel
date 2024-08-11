@@ -99,7 +99,7 @@ main {
     /* For main element to take all surplus space and push the footer element down*/
     flex: 1 0 auto;
     /* Push the main down from underneath the nav with fixed position*/
-    margin-top: 38px;
+    margin-top: 38.6px;
 }
 
 /* Footer */
@@ -137,6 +137,11 @@ footer {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+    /* Main */
+    main {
+    /*Push the main content down after enlarging the logo*/
+    margin-top: 77.3px;
     }
     
 }
