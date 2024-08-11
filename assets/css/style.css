@@ -98,12 +98,55 @@ nav {
 
 /* Main content */
 main {
-    background-color: rgb(13, 13, 13);
+    background-color: white;
+    color: black;
     /* For main element to take all surplus space and push the footer element down*/
     flex: 1 0 auto;
     /* Push the main down from underneath the nav with fixed position*/
     margin-top: 120px;
 }
+
+#firstsection>h2 {
+    text-align: center;
+    margin: 1rem auto;
+    color: rgb(18, 128, 223)
+}
+
+.reasons {
+    width: 85%;
+    border: 1px solid rgb(18, 128, 223);
+    border-radius: 10px;
+    margin: 1rem 7.5%;
+}
+
+#firstsection p {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.conclusion {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(18, 128, 223);
+}
+
+
+/*
+#reasons > h2 {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+#reasons div {
+    border: 1px solid rgb(18, 128, 223);
+    width: 90%;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+
+}
+*/
 
 /* Footer */
 footer {
@@ -152,15 +195,16 @@ footer {
         height: 36px;
     }
 
-    /*Add space between the menu items horisontaly*/
+    /* Add space between the menu items horisontaly */
     #menu>li {
         padding-right: 1.5rem;
         font-size: 130%;
+        /* Centering the nav links in the nav bar vertically */
         margin-bottom: 4.3px;
-    margin-top: 4.3px;
+        margin-top: 4.3px;
     }
 
-    /* Hide the checkbox label from the nav*/
+    /* Hide the checkbox label from the nav */
     .nav-toggle-label {
         display: none;
     }
