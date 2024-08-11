@@ -85,6 +85,7 @@ nav {
     display: block;
 
 }
+
 /*Hides the checkbox in the nav*/
 #nav-toggle {
     display: none;
@@ -111,30 +112,34 @@ footer {
 
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
     /* Header */
     header {
         height: 150px;
     }
+
     nav {
         display: block;
-        width:100%;
+        width: 100%;
         padding-right: 0.5rem;
         top: 150px;
         left: 0;
         background-color: rgb(5, 5, 113);
-        /* Add shadow underneath the navbar*/
+        /* Add shadow underneath the navbar */
         box-shadow: 0 3px 5px rgb(117, 117, 224);
 
     }
+
     /* Make the nav menu items show side by side */
     #menu {
         display: flex;
+        /* Show the nav links at the right side of the nav bar*/
         justify-content: flex-end;
         height: 36px;
     }
 
     /*Add space between the menu items horisontaly*/
-    #menu > li {
+    #menu>li {
         padding-right: 1.5rem;
         font-size: 130%;
     }
@@ -150,16 +155,18 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     /* Main */
     main {
-    /*Push the main content down after enlarging the logo*/
-    margin-top: 186px;
+        /*Push the main content down after enlarging the logo*/
+        margin-top: 186px;
     }
-    
+
 }
 
 /* Media query: tablets and larger (992px and up)*/
 @media screen and (min-width: 992px) {
+
     /* Add hover effect to the nav links*/
     #menu a:hover {
         color: rgb(230, 191, 49);
