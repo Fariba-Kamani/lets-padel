@@ -131,5 +131,12 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    /*Increase the logo size*/
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
     
 }
