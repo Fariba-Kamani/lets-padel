@@ -106,3 +106,30 @@ main {
 footer {
     background-color: rgb(5, 5, 113);
 }
+
+/* Media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width:fit-content;
+        padding-right: 1rem;
+
+    }
+    /* Make the nav menu items show side by side */
+    #menu {
+        display: flex;
+    }
+
+    /*Add space between the menu items horisontaly*/
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    /* Hide the checkbox label from the nav*/
+    .nav-toggle-label {
+        display: none;
+    }
+    
+}
