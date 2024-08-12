@@ -115,6 +115,11 @@ main {
     padding: 2rem 2rem;
 }
 
+#main-div > div  {
+    padding: 0;
+    margin: 0;
+}
+
 #section-one p {
     padding: 1rem 1rem 1rem 1rem;
 }
@@ -141,7 +146,7 @@ main {
 }
 
 #section-two input {
-    margin: 1rem 6rem 1rem 6rem;
+    margin: 1rem 28% 1rem 28%;
     font-size: 18px;
     font-weight: bold;
     border: 2px solid rgb(18, 128, 223);
