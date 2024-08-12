@@ -187,6 +187,16 @@ footer {
     color: white;
 }
 
+/* Media query: tablets and larger (667px and up)*/
+@media screen and (min-width: 667px) {
+
+    #section-two input {
+        margin: 2rem 37.75% 3rem 37.75%;
+    
+    }
+
+}
+
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
