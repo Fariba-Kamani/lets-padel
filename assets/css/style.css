@@ -105,14 +105,16 @@ main {
     /* Push the main down from underneath the nav with fixed position*/
     margin-top: 120px;
 }
+
 /* Adding section one to the main on the first page */
 #section-one {
     text-align: center;
 }
- #section-one div {
+
+#section-one div {
     padding-top: 2rem;
     padding-bottom: 2rem;
- }
+}
 
 #section-one p {
     padding: 1rem 1rem 1rem 1rem;
@@ -122,43 +124,39 @@ main {
 .background-color {
     background-color: aliceblue;
 }
- #section-two h2 {
+
+#section-two h2 {
     text-align: center;
     padding: 0 1.5rem 1rem 1.5rem;
 
- }
+}
 
- #section-two div {
+#section-two div {
     padding-top: 2rem;
     padding-bottom: 2rem;
- }
+}
 
- #section-two p {
+#section-two p {
     padding: 0 1rem 1rem 1rem;
- }
+}
 
- #find-players-button {
-    text-align: center;
-    
-
- }
- #section-two a {
+#section-two a {
     text-decoration: none;
     color: rgb(18, 128, 223);
 
- }
+}
 
- #section-two input {
-    margin: 1rem 9rem;
+#section-two input {
+    margin: 1rem 8rem;
     font-size: 18px;
     font-weight: bold;
     border: 2px solid rgb(18, 128, 223);
     border-radius: 3px;
     padding: 0.5rem;
     background-color: white;
-    
- }
-    
+
+}
+
 
 /* first section element --comment out for now -- 
 #firstsection {
