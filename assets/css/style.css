@@ -115,7 +115,7 @@ main {
  }
 
 #section-one p {
-    padding-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 /* Adding section two to main on the first page */
@@ -136,6 +136,29 @@ main {
  #section-two p {
     padding: 0 1rem 1rem 1rem;
  }
+
+ #find-players-button {
+    text-align: center;
+    
+
+ }
+ #section-two a {
+    text-decoration: none;
+    color: rgb(18, 128, 223);
+
+ }
+
+ #section-two input {
+    margin: 1rem 9rem;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid rgb(18, 128, 223);
+    border-radius: 3px;
+    padding: 0.5rem;
+    background-color: white;
+    
+ }
+    
 
 /* first section element --comment out for now -- 
 #firstsection {
