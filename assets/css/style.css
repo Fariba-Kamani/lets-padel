@@ -163,36 +163,6 @@ main {
     font-size: 18px;
 }
 
-
-
-
-
-/* first section element --comment out for now -- 
-#firstsection {
-    text-align: left;
-}
-
-#firstsection>h2,
-#firstsection h3 {
-
-    margin: 1rem 1rem;
-    font-size: 24px;
-}
-
-#firstsection h3 {
-    margin-top: 0;
-}
-
-.reasons {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.reasons i {
-    color: rgb(18, 128, 223);
-}
-    */
-
 /* Footer */
 footer {
     background-color: rgb(18, 128, 223);
@@ -266,8 +236,57 @@ footer {
         /*Push the main content down after enlarging the logo*/
         margin-top: 186px;
     }
+    /* Increase h2 font-size */
+    #section-one h2, #section-three h2 {
+        font-size: 2.5em;
+        padding: 1rem 2.5rem 2rem 2.5rem;
 
-}
+    }
+    #section-two h2 {
+        font-size: 2.5em;
+        padding: 2.5rem 2.5rem 2rem 2.5rem;
+
+    }
+
+    p, #section-three li, #vamos {
+        font-size: 1.5em;
+    }
+
+    #section-three li {
+        margin-bottom: 1rem;
+    }
+
+    #vamos {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .inline-block {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+    }
+    .inline-block p {
+        padding: 0;
+        margin: 0;
+    }
+    #section-two div {
+        padding: 0;
+        margin: 0;
+    }
+
+    #section-two input {
+        padding: 1rem;
+        font-size: 1.5em;
+        margin: 2rem 37.75% 3rem 37.75%;
+    
+    }
+
+    #section-three {
+        text-align: center;
+    }
+
+    }
 
 /* Media query: tablets and larger (992px and up)*/
 @media screen and (min-width: 992px) {
