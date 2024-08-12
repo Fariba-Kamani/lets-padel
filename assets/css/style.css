@@ -105,8 +105,39 @@ main {
     /* Push the main down from underneath the nav with fixed position*/
     margin-top: 120px;
 }
+/* Adding section one to the main on the first page */
+#section-one {
+    text-align: center;
+}
+ #section-one div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
 
-/* first section element */
+#section-one p {
+    padding-top: 1rem;
+}
+
+/* Adding section two to main on the first page */
+.background-color {
+    background-color: aliceblue;
+}
+ #section-two h2 {
+    text-align: center;
+    padding: 0 1.5rem 1rem 1.5rem;
+
+ }
+
+ #section-two div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ #section-two p {
+    padding: 0 1rem 1rem 1rem;
+ }
+
+/* first section element --comment out for now -- 
 #firstsection {
     text-align: left;
 }
@@ -130,6 +161,7 @@ main {
 .reasons i {
     color: rgb(18, 128, 223);
 }
+    */
 
 /* Footer */
 footer {
