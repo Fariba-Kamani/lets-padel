@@ -161,6 +161,10 @@ main {
 
 }
 
+#section-three i {
+    color: rgb(18, 128, 223);
+}
+
 #section-three li {
     list-style-type: none;
     margin-bottom: 0.5rem;
@@ -316,5 +320,10 @@ footer {
 
     #contact-ways i:hover {
         color: rgb(230, 191, 49);
+    }
+
+    #section-two input:hover {
+        background-color: rgb(18, 128, 223);
+        color: white;
     }
 }
