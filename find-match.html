@@ -41,7 +41,46 @@
         </nav>
     </header>
     <!-- Main content -->
-    <main>Match content</main>
+    <main>
+        <section id="find-match">
+            <form id="find-match-form" method="post" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-magnifying-glass"></i> Let's find you some padel palyers!</h2>
+                <fieldset>
+                    <legend>How do we reach you?</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mobile">Mobile number:</label>
+                    <input type="tel" id="mobile" name="mobile" required>
+                </fieldset>
+                <fieldset>
+                    <legend>About the match</legend>
+                    <label for="match-date">The game date:</label>
+                    <input type="date" id="match-date" name="date" required>
+                    <label for="start-time">Start time:</label>
+                    <input type="time" id="start-time" name="start-time" required>
+                    <label for="end-time">End time:</label>
+                    <input type="time" id="end-time" name="end-time" required>
+                    <label for="center">Center:</label>
+                    <select name="center" id="center" required>
+                        <option value="jp" selected>Järfälla Padel Club</option>
+                        <option value="camp-castella">Camp Castella Padel Järfälla</option>
+                        <option value="Pu-spanga">Padel United Spånga</option>
+                        <option value="ft-kungsangen">Fusion Träningscenter</option>
+                        <option value="actionpadel">Actionpadel Kungsängen</option>
+                        <option value="balsta">Bålsta Tennis & Padel</option>
+                    </select>
+                    <label for="level">Level:</label>
+                    <input type="number" id="level" placeholder="0-10" min="0" max="10" value="5" required> 
+                    <label for="players">How many more players do you need?</label>
+                    <input type="number" id="players" min="1" value="3" required>
+                </fieldset>
+               
+
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="contact-ways">
