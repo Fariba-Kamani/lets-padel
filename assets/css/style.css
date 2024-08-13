@@ -145,8 +145,13 @@ main {
 
 }
 
+.center-form {
+    text-align: center;
+}
+
 #section-two input {
-    margin: 1rem 28% 1rem 28%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 18px;
     font-weight: bold;
     border: 2px solid rgb(18, 128, 223);
@@ -185,16 +190,6 @@ footer {
     font-size: 150%;
     padding: 5%;
     color: white;
-}
-
-/* Media query: tablets and larger (667px and up)*/
-@media screen and (min-width: 667px) {
-
-    #section-two input {
-        margin: 2rem 37.75% 3rem 37.75%;
-    
-    }
-
 }
 
 /* Media query: tablets and larger (768px and up)*/
@@ -293,7 +288,8 @@ footer {
     #section-two input {
         padding: 1rem;
         font-size: 1.5em;
-        margin: 2rem 37.75% 3rem 37.75%;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
     
     }
 
