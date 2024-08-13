@@ -104,6 +104,9 @@ main {
     flex: 1 0 auto;
     /* Push the main down from underneath the nav with fixed position*/
     margin-top: 120px;
+    /* Enable flex properties for child elements*/
+    display: flex;
+    flex-direction: column;
 }
 
 /* Adding section one to the main on the first page */
@@ -175,6 +178,62 @@ main {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
+}
+
+/*Styling the second page, find-match.html*/
+#find-match {
+    padding: 36px 10%;
+    flex-grow: 1;
+    background-color: white;
+}
+
+#find-match-form {
+    background-color: aliceblue;
+    padding: 30px;
+
+}
+
+#find-match-form > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#find-match-form input, #find-match-form select {
+    width: 90%;
+    height: 25px;
+    margin: 8px 5% 8px 5%;
+    border: 1px solid rgb(18, 128, 223);
+    border-radius: 2px;
+    padding: 0 8px;
+    
+}
+
+#find-match-form label {
+    margin-left: 5%;
+    
+}
+
+#find-match-form fieldset {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border: 0 hidden;
+}
+
+#find-match-form legend {
+    font-weight: bold;
+}
+
+.submit {
+    margin: 8px 30%;
+    border: 1px solid rgb(18, 128, 223);
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    font-size: 100%;
+    font-weight: bold;
+    box-shadow: 0 0 3px rgb(18, 128, 223);
+    background-color: white;
+
 }
 
 /* Footer */
