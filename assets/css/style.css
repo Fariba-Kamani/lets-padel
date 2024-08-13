@@ -114,11 +114,13 @@ main {
     text-align: center;
 }
 
-#section-one div, #section-two div, #section-three div {
+#section-one div,
+#section-two div,
+#section-three div {
     padding: 2rem 2rem;
 }
 
-#main-div > div  {
+#main-div>div {
     padding: 0;
     margin: 0;
 }
@@ -132,7 +134,8 @@ main {
     background-color: aliceblue;
 }
 
-#section-two h2, #section-three h2 {
+#section-two h2,
+#section-three h2 {
     text-align: center;
     padding: 0 1.5rem 1rem 1.5rem;
 
@@ -185,6 +188,7 @@ main {
     padding: 36px 10%;
     flex-grow: 1;
     background-color: white;
+
 }
 
 #find-match-form {
@@ -193,24 +197,25 @@ main {
 
 }
 
-#find-match-form > h2 {
+#find-match>h2 {
     margin-bottom: 20px;
     text-align: center;
 }
 
-#find-match-form input, #find-match-form select {
+#find-match-form input,
+#find-match-form select {
     width: 90%;
     height: 25px;
     margin: 8px 5% 8px 5%;
     border: 1px solid rgb(18, 128, 223);
     border-radius: 2px;
     padding: 0 8px;
-    
+
 }
 
 #find-match-form label {
     margin-left: 5%;
-    
+
 }
 
 #find-match-form fieldset {
@@ -253,6 +258,14 @@ footer {
     font-size: 150%;
     padding: 5%;
     color: white;
+}
+
+/* Media query: tablets and larger (667px and up)*/
+@media screen and (min-width: 667px) {
+    .submit {
+        margin: 8px 42% 8px 40%;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up)*/
@@ -309,19 +322,24 @@ footer {
         /*Push the main content down after enlarging the logo*/
         margin-top: 186px;
     }
+
     /* Increase h2 font-size */
-    #section-one h2, #section-three h2 {
+    #section-one h2,
+    #section-three h2 {
         font-size: 2.5em;
         padding: 1rem 2.5rem 2rem 2.5rem;
 
     }
+
     #section-two h2 {
         font-size: 2.5em;
         padding: 2.5rem 2.5rem 2rem 2.5rem;
 
     }
 
-    p, #section-three li, #vamos {
+    p,
+    #section-three li,
+    #vamos {
         font-size: 1.5em;
     }
 
@@ -339,10 +357,12 @@ footer {
         width: 32%;
         vertical-align: top;
     }
+
     .inline-block p {
         padding: 0;
         margin: 0;
     }
+
     #section-two div {
         padding: 0;
         margin: 0;
@@ -353,14 +373,14 @@ footer {
         font-size: 1.5em;
         margin-top: 2rem;
         margin-bottom: 3rem;
-    
+
     }
 
     #section-three {
         text-align: center;
     }
 
-    }
+}
 
 /* Media query: tablets and larger (992px and up)*/
 @media screen and (min-width: 992px) {
@@ -384,5 +404,32 @@ footer {
     #section-two input:hover {
         background-color: rgb(18, 128, 223);
         color: white;
+    }
+
+    /*Make the form responsive for desktop*/
+    #find-match-form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+
+    }
+
+    #find-match-form fieldset {
+        flex: 1 0 200px;
+        border: 1px dashed rgb(18, 128, 223);
+    }
+
+    #find-match-form legend {
+        text-align: center;
+    }
+
+    .submit {
+        margin: 8px 45% 8px 35%;
+    }
+
+    .submit:hover {
+        background-color: rgb(18, 128, 223);
+        color: white;
+
     }
 }
