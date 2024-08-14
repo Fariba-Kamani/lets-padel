@@ -202,6 +202,12 @@ main {
     text-align: center;
 }
 
+#find-match>p {
+    font-size: large;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 #find-match-form input,
 #find-match-form select {
     width: 90%;
@@ -424,7 +430,11 @@ footer {
     }
 
     .submit {
-        margin: 8px 45% 8px 39%;
+     margin: 8px 45% 8px 39%;
+      /* justify-content: center;
+       align-self: center;*/
+       /*margin: 8px 335px 8px 358px;*/
+       
     }
 
     .submit:hover {
@@ -432,4 +442,5 @@ footer {
         color: white;
 
     }
-}
+
+    }
