@@ -473,4 +473,8 @@ footer {
         column-count: 4;
     }
 
+    #images img:hover {
+        transform: scale(1.2);
+    }
+
     }
