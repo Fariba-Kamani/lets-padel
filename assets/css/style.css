@@ -31,6 +31,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+     /* Add shadow underneath the header */
+     box-shadow: 0 3px 5px white;
 }
 
 /* Remove the underlying styling and blue color of links in the header */
@@ -253,7 +255,6 @@ main {
     width: 100%;
     /* Keep the alt-text readable after removing the white lines between the photos*/
     line-height: 1em;
-    border: 2px solid white;
 }
 /* Remove the extra white lines between photos */
 #images {
@@ -262,6 +263,8 @@ main {
 /* Footer */
 footer {
     background-color: rgb(18, 128, 223);
+     /* Add shadow above the footer */
+     box-shadow: 0 -3px 5px white;
 }
 
 #contact-ways {
@@ -278,12 +281,18 @@ footer {
     color: white;
 }
 
-/* Media query: tablets and larger (667px and up)*/
-@media screen and (min-width: 667px) {
+/* Media query: large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    /* Centering the Vamos-button on find-match page*/
     .submit {
         margin: 8px 42% 8px 40%;
     }
-
+    /*Masonry design for gallery photos*/
+    #images {
+        column-count: 2;
+        /* Remove the white gap between the columns. */
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up)*/
@@ -301,9 +310,8 @@ footer {
         top: 150px;
         left: 0;
         background-color: rgb(44, 36, 155);
-        /* Add shadow underneath the navbar */
-        box-shadow: 0 3px 5px rgb(18, 128, 223);
-
+         /* Add shadow underneath the navbar */
+     box-shadow: 0 3px 5px white;
     }
 
     /* Make the nav menu items show side by side */
@@ -398,6 +406,11 @@ footer {
         text-align: center;
     }
 
+    /*Gallery masonry design for images*/
+    #images {
+        column-count: 3;
+    }
+
 }
 
 /* Media query: tablets and larger (992px and up)*/
@@ -453,6 +466,11 @@ footer {
         background-color: rgb(18, 128, 223);
         color: white;
 
+    }
+
+    /*Gallery masonry design for images*/
+    #images {
+        column-count: 4;
     }
 
     }
