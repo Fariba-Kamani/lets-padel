@@ -31,15 +31,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-     /* Add shadow underneath the header */
-     box-shadow: 0 3px 5px white;
+    /* Add shadow underneath the header */
+    box-shadow: 0 3px 5px white;
 }
 
 /* Remove the underlying styling and blue color of links in the header */
 header a {
     text-decoration: none;
     color: inherit;
-
 }
 
 h1 {
@@ -53,20 +52,17 @@ h1 {
 /* Navigation menu */
 #menu {
     list-style-type: none;
-
 }
 
 /* Add more space between the lines in the navigation menu*/
 #menu>li {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-
 }
 
 /*Give a visual cue to the active page*/
 .active-page {
     border-bottom: 2px solid white;
-
 }
 
 /* Navbar styles with dropdown toggle */
@@ -85,13 +81,11 @@ nav {
 /* Nav-toggle function*/
 #nav-toggle:checked~nav {
     display: block;
-
 }
 
 /*Hides the checkbox in the nav*/
 #nav-toggle {
     display: none;
-
 }
 
 .nav-toggle-label {
@@ -140,7 +134,6 @@ main {
 #section-three h2 {
     text-align: center;
     padding: 0 1.5rem 1rem 1.5rem;
-
 }
 
 #section-two p {
@@ -150,7 +143,6 @@ main {
 #section-two a {
     text-decoration: none;
     color: rgb(18, 128, 223);
-
 }
 
 .center-form {
@@ -166,7 +158,6 @@ main {
     border-radius: 3px;
     padding: 0.5rem;
     background-color: white;
-
 }
 
 #section-three i {
@@ -188,14 +179,15 @@ main {
 /*Styling the second page, find-match.html*/
 #find-match {
     padding: 36px 10%;
-    flex-grow: 1;
     background-color: white;
-
 }
 
 #find-match-form {
     background-color: aliceblue;
     padding: 30px;
+    /* Using flexbox in order to be able to center the vamos-button in the form */
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -218,19 +210,17 @@ main {
     border: 1px solid rgb(18, 128, 223);
     border-radius: 2px;
     padding: 0 8px;
-
 }
 
 #find-match-form label {
     margin-left: 5%;
-
 }
 
 #find-match-form fieldset {
     padding-top: 16px;
     padding-bottom: 8px;
     margin-bottom: 16px;
-    border: 0 hidden;
+    border: hidden;
 }
 
 #find-match-form legend {
@@ -238,7 +228,8 @@ main {
 }
 
 .submit {
-    margin: 8px 30%;
+    /*centering the Vamos-button using flexbox*/
+    align-self: center;
     border: 1px solid rgb(18, 128, 223);
     border-radius: 2px;
     padding: 0.5rem 1rem;
@@ -246,7 +237,6 @@ main {
     font-weight: bold;
     box-shadow: 0 0 3px rgb(18, 128, 223);
     background-color: white;
-
 }
 
 /* Gallery page */
@@ -256,15 +246,17 @@ main {
     /* Keep the alt-text readable after removing the white lines between the photos*/
     line-height: 1em;
 }
+
 /* Remove the extra white lines between photos */
 #images {
     line-height: 0;
 }
+
 /* Footer */
 footer {
     background-color: rgb(18, 128, 223);
-     /* Add shadow above the footer */
-     box-shadow: 0 -3px 5px white;
+    /* Add shadow above the footer */
+    box-shadow: 0 -3px 5px white;
 }
 
 #contact-ways {
@@ -283,10 +275,16 @@ footer {
 
 /* Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
-    /* Centering the Vamos-button on find-match page*/
-    .submit {
-        margin: 8px 42% 8px 40%;
+
+    /* Adding border to fieldset and aligning the legends to center for screens larger than landscape mobile*/
+    #find-match-form fieldset {
+        border: 1px dashed rgb(18, 128, 223);
     }
+
+    #find-match-form legend {
+        text-align: center;
+    }
+
     /*Masonry design for gallery photos*/
     #images {
         column-count: 2;
@@ -310,8 +308,8 @@ footer {
         top: 150px;
         left: 0;
         background-color: rgb(44, 36, 155);
-         /* Add shadow underneath the navbar */
-     box-shadow: 0 3px 5px white;
+        /* Add shadow underneath the navbar */
+        box-shadow: 0 3px 5px white;
     }
 
     /* Make the nav menu items show side by side */
@@ -354,13 +352,11 @@ footer {
     #section-three h2 {
         font-size: 2.5em;
         padding: 1rem 2.5rem 2rem 2.5rem;
-
     }
 
     #section-two h2 {
         font-size: 2.5em;
         padding: 2.5rem 2.5rem 2rem 2.5rem;
-
     }
 
     p,
@@ -399,7 +395,6 @@ footer {
         font-size: 1.5em;
         margin-top: 2rem;
         margin-bottom: 3rem;
-
     }
 
     #section-three {
@@ -420,7 +415,6 @@ footer {
     #menu a:hover {
         color: rgb(230, 191, 49);
         border-bottom: 2px solid rgb(230, 191, 49);
-
     }
 
     /* Add hover effect to the logo*/
@@ -437,35 +431,9 @@ footer {
         color: white;
     }
 
-    /*Make the form responsive for desktop*/
-    #find-match-form {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row-reverse;
-
-    }
-
-    #find-match-form fieldset {
-        flex: 1 0 200px;
-        border: 1px dashed rgb(18, 128, 223);
-    }
-
-    #find-match-form legend {
-        text-align: center;
-    }
-
-    .submit {
-     margin: 8px 45% 8px 39%;
-      /* justify-content: center;
-       align-self: center;*/
-       /*margin: 8px 335px 8px 358px;*/
-       
-    }
-
     .submit:hover {
         background-color: rgb(18, 128, 223);
         color: white;
-
     }
 
     /*Gallery masonry design for images*/
@@ -473,8 +441,9 @@ footer {
         column-count: 4;
     }
 
+    /* Make images on the gallery larger by hovering on them*/
     #images img:hover {
         transform: scale(1.2);
     }
 
-    }
+}

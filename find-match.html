@@ -46,8 +46,6 @@
             <h2><i class="fa-solid fa-magnifying-glass"></i> Let's find you some padel players!</h2>
             <p>Please make your request below and we will contact you as soon as your match is full.</p>
             <form id="find-match-form" method="post" action="https://formdump.codeinstitute.net">
-               <!-- <h2><i class="fa-solid fa-magnifying-glass"></i> Let's find you some padel players!</h2> -->
-
                 <fieldset id="fieldset-one">
                     <legend>How do we reach you?</legend>
                     <label for="name">Name:</label>
@@ -59,7 +57,7 @@
                     <label for="mobile">Mobile:</label>
                     <input type="tel" id="mobile" name="mobile" required>
                 </fieldset>
-                <fieldset id="fieldset-two">
+                <fieldset id="fieldset-two" class="inline-block-form">
                     <legend>About the match</legend>
                     <label for="match-date">Date:</label>
                     <input type="date" id="match-date" name="date" required>
@@ -81,14 +79,14 @@
                     </select>
                     <br>
                     <label for="level">Level:</label>
-                    <input type="number" id="level" placeholder="0-10" min="0" max="10" value="5" required> 
+                    <input type="number" id="level" placeholder="0-10" min="0" max="10" value="5" required>
                     <br>
                     <label for="players">How many more players do you need?</label>
                     <input type="number" id="players" min="1" value="3" required>
                 </fieldset>
                 <button type="submit" class="submit">Vamos!</button>
             </form>
-               
+
 
             </form>
         </section>
@@ -96,10 +94,17 @@
     <!-- Footer -->
     <footer>
         <ul id="contact-ways">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="fariba-kamani87@gmail.com" target="_blank" rel="noopener" aria-label="Contact us by email (opens in a new tab)"><i class="fa-regular fa-envelope"></i></a></li>
-            <li><a href="+46764008196" target="_blank" rel="noopener" aria-label="Call us on (opens in a new tab)"><i class="fa-solid fa-square-phone-flip"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="fariba-kamani87@gmail.com" target="_blank" rel="noopener"
+                    aria-label="Contact us by email (opens in a new tab)"><i class="fa-regular fa-envelope"></i></a>
+            </li>
+            <li><a href="+46764008196" target="_blank" rel="noopener" aria-label="Call us on (opens in a new tab)"><i
+                        class="fa-solid fa-square-phone-flip"></i></a></li>
         </ul>
     </footer>
 
