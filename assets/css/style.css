@@ -247,6 +247,18 @@ main {
 
 }
 
+/* Gallery page */
+/* Solving the overflow issue on mobile screen by setting the img width to 100% */
+#images img {
+    width: 100%;
+    /* Keep the alt-text readable after removing the white lines between the photos*/
+    line-height: 1em;
+    border: 2px solid white;
+}
+/* Remove the extra white lines between photos */
+#images {
+    line-height: 0;
+}
 /* Footer */
 footer {
     background-color: rgb(18, 128, 223);
