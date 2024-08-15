@@ -52,16 +52,23 @@ The way the website works is very straight forward and intuitive. All it is need
 
 ### User Stories
 
+
 #### First Time Visitor Goals
-
-
+* I would like to try padel or play padel occasionally and I want to find people to play with.
+* I have different schedule from my padel friends and I want to find other padel players who have similar schedule to me.
+* I want the website to be intuitive and easy to use.
+* I want the website to be compatible and responsive to my device.
 
 #### Returning Visitor Goals
 
-
+* I want to be able to play padel more frequently and I want to be able to find players on a more regular basis.
+* I want that even if I spontaneously decide to play padel, I still know there is a high chance I could find other players to play with by using the website.
 
 #### Frequent Visitor Goals
 
+* I want to be able to see what matches other players have requested and be able to independently join their matches.
+* I want to be able to have an account on the website and be able to keep connected to my padel friends via the website.
+* I want to be able to independently upload pictures taken from my padel experiences on the Gallery page.
 
 - - -
 
