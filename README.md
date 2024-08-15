@@ -4,6 +4,8 @@
 
 Visit the deployed site: [Let's Padel](https://fariba-kamani.github.io/lets-padel/)
 
+Let's Padel is a growing community for every one who loves playing padel regardless of gender, age or skill level. As a padel player myself I usually struggle to find other people to play with when I actually have spare time and can play and I beleive I would play more often if I had access to more padel players beyond those whom I know.
+
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
