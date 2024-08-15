@@ -77,9 +77,12 @@ Visit the deployed site: [Let's Padel](https://fariba-kamani.github.io/lets-pade
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-![Home Page]()
-![Find a match]()
-![Gallery]()
+| Screen size | Home | Find a match | Gallery |
+| :--- | :--- | :--- | :--- |
+| mobile | ![home page for mobile](assets/images/wireframe-lets-padel-homepage-mobile.png) | ![Find a match page for mobile](assets/images/wireframe-lets-padel-find-a-matchpage-mobile.png) | ![gallery page for mobile](assets/images/wireframe-lets-padel-gallerypage-mobile.png) |
+| tablet | ![home page for tablet](assets/images/wireframe-lets-padel-homepage-ipod.png) | ![find a match page for tablet](assets/images/wireframe-lets-padel-find-a-matchpage-ipod.png) | ![gallery page for tablet](assets/images/wireframe-lets-padel-gallerypage-ipod.png) |
+| desktop | ![home page for desktop](assets/images/wireframe-lets-padel-homepage-desktop.png) | ![find a match page for desktop](assets/images/wireframe-lets-padel-find-a-matchpage-desktop.png) | ![gallery page for desktop](assets/images/wireframe-lets-padel-gallerypage-desktop.png) |
+
 
 ### Features
 
