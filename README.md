@@ -4,7 +4,9 @@
 
 Visit the deployed site: [Let's Padel](https://fariba-kamani.github.io/lets-padel/)
 
-Let's Padel is a growing community for every one who loves playing padel regardless of gender, age or skill level. As a padel player myself I usually struggle to find other people to play with when I actually have spare time and can play and I beleive I would play more often if I had access to more padel players beyond those whom I know.
+Let's Padel is a growing community for every one who loves playing padel regardless of gender, age or skill level. As a padel player myself I usually struggle to find other people to play with when I actually have spare time and can play. I beleive I would have played padel more often if I had access to more padel players beyond those in my contact list. I thought this could as well be one of the obsticles for other padel players like me out there. By creating Let's Padel I am trying to address this issue and help facilitating for padel players to find and connect to each other and hopefully be able to play padel as often as they desire.
+
+The way the website works is very straight forward and intuitive. All it is needed to be done is for the player to fill in a form, informing us about when and where she/he wants to play, the skill level the player has and how many players are needed in order to be able to play a match. We will then try to find other players who also have the same preferences and when we have found all the required players, we will contact the player through the contact details provided to us in the submitted form. 
 
 ## CONTENTS
 
