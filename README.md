@@ -106,7 +106,19 @@ Both fonts will fall back to sans-serif in case the imported google fonts don't 
 
 ### Imagery
 
+All images that have been used on the website have been resized, using [Image Resizer.com](https://imageresizer.com/), converted to web.p format using [FreeConver](https://www.freeconvert.com/jpg-to-webp) and compressed using [tinify](https://tinypng.com/) to be optimized for using on the website and help loading the website faster for the users.
 
+The headers on all three pages have a background image of a padel court taken from, https://psauction.com/item/view/975429/mobil-komplett-padelbana-instantpadel-duo-10x20m-ny-och-ej-monterad, to give the user the same feeling as being on the padel court.
+
+You can see the URLs where the images on the Gallery page are taken from in the list below. All has given an alt attribute for text to be displayed if the image file does not load, and to describe the image on screen readers for visually impaired users.
+* https://thumbs.dreamstime.com/b/serious-middle-aged-latin-man-tennis-player-playing-padel-friendly-match-outdoor-court-spring-focused-hitting-ball-267446063.jpg
+* https://www.vanguardlawmag.com/wp-content/uploads/2024/04/IMG_5960.jpg
+* https://www.lta.org.uk/49d339/siteassets/play/padel/image/woman-playing-padel2.jpg?w=3200"
+* https://tennis-uni.com/wp-content/uploads/padel-tennisspieler-netz-400x267.jpeg
+* https://media.istockphoto.com/id/1413274533/photo/four-senior-friends-enjoying-together-while-playing-padel.jpg?s=612x612&w=0&k=20&c=ZuI09DB7woiuqmYD-J5dlzg1ID5VOSoh6m_7gFII4_E="
+* https://thepeninsulaqatar.com/get/maximage/20240303_1709445598-694.jpg?1709445599"
+* https://thepadelstate.com/wp-content/uploads/2024/02/Sofia-Arujo-1021x500.jpg
+* https://rutinasdeportivas.es/medios/2017/01/Quieres-saber-cu%C3%A1les-son-los-beneficios-del-p%C3%A1del-y-porque-es-importante-practicarlo-parejas.jpg
 
 
 ### Wireframes
