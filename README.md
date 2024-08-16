@@ -94,11 +94,19 @@ Button borders (on all screen sizes) and the fieldset borders (on tablet and des
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
-* For the Page title I have used the google font 
-* For the body of the page I have used the google font 'Roboto' as it is clean, readable and easy on the eyes to make the user experience as smooth as possible. According to [Google Fonts](https://fonts.google.com/specimen/Roboto/about?query=roboto&selected=Material+Symbols+Outlined:sports_tennis:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368) Roboto is featured in more than 695 million websites and according to [Github](https://github.com/googlefonts/roboto) 
+![Exo 2](assets/images/Title-font.png)
 
+* For the Page title I have used the google font; Exo 2 which is described as a contemporary geometric sans serif typeface by [Google Fonts](https://fonts.google.com/specimen/Exo+2/about?preview.text=LET%27S%20PADEL&preview.size=42). I chose this font for the title because it looks playful and fun which goes well with the agenda of the website.
+
+![Roboto](assets/images/body-font.png)
+
+* For the body of the page I have used the google font 'Roboto' as it is clean, readable and easy on the eyes to make the user experience as smooth as possible. According to [Google Fonts](https://fonts.google.com/specimen/Roboto/about?query=roboto&selected=Material+Symbols+Outlined:sports_tennis:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368) Roboto is featured in more than 695 million websites and according to [Github](https://github.com/googlefonts/roboto) the font has enough multi language support and it comes in enough weights, styles and alternate glyphs.
+
+Both fonts will fall back to sans-serif in case the imported google fonts don't load.
 
 ### Imagery
+
+
 
 
 ### Wireframes
