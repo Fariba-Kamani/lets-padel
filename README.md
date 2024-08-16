@@ -76,7 +76,19 @@ The way the website works is very straight forward and intuitive. All it is need
 
 ### Colour Scheme
 
+Let's Padel colour scheme is inspired by the colours usually seen at padel courts all a round in Stockholm which are usually blue, black and white. I wanted to give the user the same feeling as being on the padel court by using the same colours. I tried to keep the colour scheme quite minimal in order to not cause any visuall overload to the users, specially the users with Autism.
 
+I have used an image of a padel court as the header background to add visual interest to all pages and since the dominant colour on the image is rgb(18, 128, 223) or #1280DF, that as well dictated the colour of the footer on all the three web pages.
+
+The menu bar font colour as well as the colour of the Font Fantastic icons in the footer are chosen to be white in order to add contrast and make it easy for the user to see and read against the blue background. The header title has a slightly different white colour rgb(250, 250, 243) or #FAFAF3 to stand out from the other links in the navigation bar and the footer. For desktop size screens a hovering effect has been applied for more interaction with the users which changes the content colour of the header and the footer to rgb(230, 191, 49) or #E6BF31 while still maintaining contrast against their backgrounds.
+
+The navigation links are designed in a drop down menu for mobile size screens and open on a transparent dark blue background, rgba(1, 1, 21, 0.2), in order to be visiable on the header background image while the image itself remains visiable as well. For tablet and desktop screens I decided to have a navigation bar right underneath the header image to show the navigation links at all time. In order to make the navbar distinguishable from the header image and maintaining contrast with the link colours, I used rgb(44, 36, 155) or #2C249B.
+
+The background colour for the sections in the body is alternating between white and Aliceblue to help the user understand when one section ends and the other one begins in a page. Black is used for the font colour on the body to ensure contrast and better visibility.
+
+Button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) are the same blue as in the header image and the footer, rgb(18, 128, 223), making the design adhesive to the rest of the website colour scheme while at the same time noticable to the users eyes.
+
+![The Let's Padel Color Scheme](assets/images/Lets-padel-color-scheme.png)
 
 ### Typography
 
