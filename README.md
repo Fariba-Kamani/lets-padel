@@ -188,8 +188,20 @@ All Pages on the website are responsive and have:
 
 #### The Find Players Page
 
+![the Find Players page responsive](assets/images/find-players-responsive.png)
+
+  * **Page title and quick instructions for the users**
+  * **The submit form with two fieldsets and the Vamos button for submitting the form**
+  * **Added fieldset border for more visible sectioning on screens larger than tablets**
+  * **Hover effect for Vamos button on desktops** 
+
 
 #### The Gallery Page
+
+![the Gallery page responsive](assets/images/gallery-page-responsive.png)
+
+  * **The page title to let users know that they can share their photos**
+  * **Masonry design for displaying the Gallery photos**
 
 
 
