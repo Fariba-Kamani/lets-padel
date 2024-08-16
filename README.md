@@ -182,9 +182,8 @@ All Pages on the website are responsive and have:
     ![About section responsive](assets/images/second-section-responsive.png)
 
 * **Benefits of padel section with font fantastic intuitive icons and responsive content**
-
-  ![benefits of padel section](assets/images/benefit-section.png) ![benefits of padel on screens larger than tablets](assets/images/benefits-responsive.png)
-
+![benefits of padel section](assets/images/benefit-section.png)
+![benefits of padel on screens larger than tablets](assets/images/benefits-responsive.png)
 
 #### The Find Players Page
 
