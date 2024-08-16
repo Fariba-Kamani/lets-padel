@@ -20,7 +20,7 @@ The way the website works is very straight forward and intuitive. All it is need
   * [Wireframes](#wireframes)
   * [Features](#features)
     * [The Home Page](#the-home-page)
-    * [The Find a match Page](#the-find-a-match-page)
+    * [The Players Page](#the-find-players-page)
     * [The Gallery Page](#the-gallery-page)
   * [Accessibility](#accessibility)
 
@@ -125,14 +125,14 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 | Screen size | Home | Find a match | Gallery |
 | :--- | :--- | :--- | :--- |
-| mobile | ![home page for mobile](assets/images/wireframe-lets-padel-homepage-mobile.png) | ![Find a match page for mobile](assets/images/wireframe-lets-padel-find-a-matchpage-mobile.png) | ![gallery page for mobile](assets/images/wireframe-lets-padel-gallerypage-mobile.png) |
-| tablet | ![home page for tablet](assets/images/wireframe-lets-padel-homepage-ipod.png) | ![find a match page for tablet](assets/images/wireframe-lets-padel-find-a-matchpage-ipod.png) | ![gallery page for tablet](assets/images/wireframe-lets-padel-gallerypage-ipod.png) |
-| desktop | ![home page for desktop](assets/images/wireframe-lets-padel-homepage-desktop.png) | ![find a match page for desktop](assets/images/wireframe-lets-padel-find-a-matchpage-desktop.png) | ![gallery page for desktop](assets/images/wireframe-lets-padel-gallerypage-desktop.png) |
+| mobile | ![home page for mobile](assets/images/wireframe-lets-padel-homepage-mobile.png) | ![Find Players page for mobile](assets/images/wireframe-lets-padel-find-a-matchpage-mobile.png) | ![gallery page for mobile](assets/images/wireframe-lets-padel-gallerypage-mobile.png) |
+| tablet | ![home page for tablet](assets/images/wireframe-lets-padel-homepage-ipod.png) | ![find Players page for tablet](assets/images/wireframe-lets-padel-find-a-matchpage-ipod.png) | ![gallery page for tablet](assets/images/wireframe-lets-padel-gallerypage-ipod.png) |
+| desktop | ![home page for desktop](assets/images/wireframe-lets-padel-homepage-desktop.png) | ![find Players page for desktop](assets/images/wireframe-lets-padel-find-a-matchpage-desktop.png) | ![gallery page for desktop](assets/images/wireframe-lets-padel-gallerypage-desktop.png) |
 
 
 ### Features
 
-The website is comprised of a home page, a Find a match page and a Gallery page.
+The website is comprised of a home page, a Find Players page and a Gallery page.
 
 All Pages on the website are responsive and have:
 
@@ -140,18 +140,53 @@ All Pages on the website are responsive and have:
 
   ![favicon](assets/images/favicon-tab.png)
 
-* The title of the site at the top of every page. This title also acts as a link back to the home page.
+* The title of the site at the top of every page. This title also acts as a link back to the home page, which turns into Saffron yellow colour when hovered on, on desktop screens.
 
   ![The Let's Padel Title](assets/images/title-link-to-homepage.png)
+  ![The Let's Padel Title responsive](assets/images/title-hover-desktop.png)
+
+* **Drop down navigation menu for mobile screens**  
+
+  ![drop down navigation menu](assets/images/dropdown-navigation-menu.png)  
+
+  * **Underlining the active page in the navigation menu**
+  * **Navigation menu for screens larger than tablets**
+  
+    ![navigation menu for screens larger than tablets with underlined active page](assets/images/responsive-nav-menu-active-page.png)
+
+  * **Navigation links turn into Saffron yellow colour with the same colour underline when hovered on, on desktop screens** 
+
+    ![navigation menu links on hover](assets/images/responsive-nav-links-by-hover.png)
+  
+
+* The footer of the site at the bottom of every page holding links to the website facebook, instagram, email and phone showing with font fantastic icons. Each icon turns into Saffron yellow colour when hovered on, on desktop screens.
+
+  ![footer](assets/images/footer.png)
 
 #### The Home Page
 
 ![Responsive home page](assets/images/homepage-responsive.png)
 
-* **Drop down menu of the website page links**
+* **Quick introduction section or the landing section**
+
+  ![Landing section](assets/images/landing-section.png)
+
+* **About the website section, its purpose and how it works**
+  * **Find Players button as well as the word "form" in the about the website section that send the users to the Find Players page**
+
+    ![About section](assets/images/about-section.png)
+
+  * **Responsive button that turns blue with white text by hovering on, on desktops**
+  * **Responsive content. The paragraphs show in columns for screens larger than tablets**
+
+    ![About section responsive](assets/images/second-section-responsive.png)
+
+* **Benefits of padel section with font fantastic intuitive icons and responsive content**
+
+  ![benefits of padel section](assets/images/benefit-section.png) ![benefits of padel on screens larger than tablets](assets/images/benefits-responsive.png)
 
 
-#### The Find a match Page
+#### The Find Players Page
 
 
 #### The Gallery Page
