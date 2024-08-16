@@ -20,10 +20,8 @@ The way the website works is very straight forward and intuitive. All it is need
   * [Wireframes](#wireframes)
   * [Features](#features)
     * [The Home Page](#the-home-page)
-    * [The Game Page](#the-game-page)
-    * [The High Scores Page](#the-high-scores-page)
-    * [The 404 Error Page](#the-404-error-page)
-    * [Future Implementations](#future-implementations)
+    * [The Find a match Page](#the-find-a-match-page)
+    * [The Gallery Page](#the-gallery-page)
   * [Accessibility](#accessibility)
 
 * [Technologies Used](#technologies-used)
@@ -134,8 +132,23 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 ### Features
 
+The website is comprised of a home page, a Find a match page and a Gallery page.
+
+All Pages on the website are responsive and have:
+
+* A favicon in the browser tab.
+
+  ![favicon](assets/images/favicon-tab.png)
+
+* The title of the site at the top of every page. This title also acts as a link back to the home page.
+
+  ![The Let's Padel Title](assets/images/title-link-to-homepage.png)
 
 #### The Home Page
+
+![Responsive home page](assets/images/homepage-responsive.png)
+
+* **Drop down menu of the website page links**
 
 
 #### The Find a match Page
