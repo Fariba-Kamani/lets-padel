@@ -213,7 +213,7 @@ All Pages on the website are responsive and have:
   * **The page title to let users know that they can share their photos**
 
     ![gallery page title](assets/images/gallery-page-title.png)
-    
+
   * **Masonry design for displaying the Gallery photos**
   * **Added hover effect to gallery images to make them bigger when hovered on**
 
@@ -225,16 +225,23 @@ All Pages on the website are responsive and have:
 
 In future implementations I would like to:
 
-1. 
-2. 
-3. 
-4. 
+1. display the matches the users have requested on the website and allowing the other users to be able to send requests to join the available matches while the match hasn't become full.
+2. Uppdating the displayed matches and remove the old ones from the display.
+3. Allowing the user to have an account on the website to be able to 
+   * add other players in their friend list, 
+   * send messages, 
+    * keep a record of the matches that have been played 
+    * be able to see the status of the match they have requested.
 
 ### Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+I have been mindful during coding to ensure that any one can understand my website regardless of auditory, visual or physical disability.
 
-* Using semantic HTML.
+* Semantic HTML has been used to both help the browser to understand the content, also to provide the screen readers with extra functionality to operate by keyboard rather than by a mouse.
+* Semantic text structure such as headings, paragraphs, list, ... has been used to help the screen reader to have the indicators it needs to read out the content in a useful way.
+* Semantic structural elements such as nav, header, section, footer has been used to provide screen readers with important information that can be conveyed to their users.
+* UI controls such as links, buttons and form have been used to allow the user to interact with the website and they can, by browser default, be accessed by using a keyboard or by clicking the tab key to jump from one UI control to another.
+* Form labels have been used so that the screen readers can clearly label input fields for their users.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
 * Sans serif font for the site - these fonts are suitable for people with dyslexia.
 * Ensuring that there is a sufficient colour contrast throughout the site.
