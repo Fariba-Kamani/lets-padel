@@ -244,7 +244,7 @@ main {
 #gallery>h2 {
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 /* Solving the overflow issue on mobile screen by setting the img width to 100% */
 #images img {

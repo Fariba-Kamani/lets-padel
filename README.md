@@ -163,6 +163,9 @@ All Pages on the website are responsive and have:
 
   ![footer](assets/images/footer.png)
 
+* White shadow underneath the navigation bar and above the footer to add more distinction between them and the body content for the user.
+  ![White box show seperating the header and the footer from the body](assets/images/white-box-shadow.png)
+
 #### The Home Page
 
 ![Responsive home page](assets/images/homepage-responsive.png)
@@ -190,9 +193,17 @@ All Pages on the website are responsive and have:
 ![the Find Players page responsive](assets/images/find-players-responsive.png)
 
   * **Page title and quick instructions for the users**
+
+    ![form page title and user instructions](assets/images/form-title-section.png)
+
   * **The submit form with two fieldsets and the Vamos button for submitting the form**
   * **Added fieldset border for more visible sectioning on screens larger than tablets**
-  * **Hover effect for Vamos button on desktops** 
+
+    ![The submit form](assets/images/submit-form.png)
+
+  * **Hover effect for Vamos button on desktops**
+
+    ![Vamos button with hover effect](assets/images/responsive-vamos-button.png) 
 
 
 #### The Gallery Page
@@ -200,7 +211,13 @@ All Pages on the website are responsive and have:
 ![the Gallery page responsive](assets/images/gallery-page-responsive.png)
 
   * **The page title to let users know that they can share their photos**
+
+    ![gallery page title](assets/images/gallery-page-title.png)
+    
   * **Masonry design for displaying the Gallery photos**
+  * **Added hover effect to gallery images to make them bigger when hovered on**
+
+    ![gallery images hovered on for desktop](assets/images/hovered-on-gallery-img-desktop.png)
 
 
 
