@@ -35,6 +35,12 @@ The way the website works is very straight forward and intuitive. All it is need
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
+  * [AUTOMATED TESTING](#automated-testing)
+    * [W3C Validator](#w3c-validator)
+    * [Lighthouse](#lighthouse)
+  * [MANUAL TESTING](#manual-testing)
+    * [Testing User Stories](#testing-user-stories)
+    * [Full Testing](#full-testing)
   * [Solved Bugs](#solved-bugs)
   * [Known Bugs](#known-bugs)
   
@@ -272,15 +278,12 @@ HTML, CSS
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
-* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
-
-* [Tinify](https://tinypng.com/) To compress images
+* [Tinify](https://tinypng.com/) To compress images.
 
 * [Image Resizer.com](https://imageresizer.com/) To resize and compress images. 
 
 * [FreeConver](https://www.freeconvert.com/jpg-to-webp) To convert the images to webp format.
  
-
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
 - - -
@@ -324,7 +327,13 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+### Automated testing
+
+#### W3C Validator
+
+
+
+### Manuall testing
 
 ### Solved Bugs
 
