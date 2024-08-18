@@ -330,6 +330,9 @@ To clone the repository:
 ### Automated testing
 
 #### W3C Validator
+  - HTML: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+
+  - CSS: [(Jigsaw validator)]()
 
 #### Lighthouse
 
