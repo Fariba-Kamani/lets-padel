@@ -331,6 +331,28 @@ To clone the repository:
 
 #### W3C Validator
 
+#### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+##### Desktop Results
+
+![index.html](assets/images/lighthouse-home-desktop.png)
+
+![find-match.html]()
+
+![gallery.html]()
+
+##### Mobile Results
+
+![index.html]()
+
+![find-match.html]()
+
+![gallery.html]()
+
+
+
 
 
 ### Manuall testing
