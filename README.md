@@ -327,9 +327,17 @@ To clone the repository:
 
 ## Testing
 
+Testing was ongoing throughout the entire project developement. Chrome developer tools were used whilst building to find and resolve any issues that came along and to ensure everything was working correctly as expected.
+
+Chrome developer tools were also used to ensure that the project is responsive, looks good and functions as it should on all standard screen sizes.
+
+The website has been tested on Chrome, Microsoft Edge and Safari. 
+
+
 ### Automated testing
 
 #### W3C Validator
+
   - HTML: No errors were returned for index.html, find-match.html and gallery.html when passing through the official [W3C validator](https://validator.w3.org/).
 
   - CSS: No errors were found for style.css when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
