@@ -26,17 +26,17 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <a href="index.html">
+    <header role="img" aria-label="The header has a background image of a blue padel court">
+        <a href="index.html" aria-label="Links back to Home page">
             <h1 id="logo">Let's Padel</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Opens the dropdown navigation menu><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active-page">Home</a></li>
-                <li><a href="find-match.html">Find Players</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html" class="active-page" aria-label="Go to Home page">Home</a></li>
+                <li><a href="find-match.html" aria-label="Go to Find Players page">Find Players</a></li>
+                <li><a href="gallery.html" aria-label="Go to Gallery page">Gallery</a></li>
             </ul>
         </nav>
     </header>
@@ -61,7 +61,7 @@
                         game, we can help you find other padel players to connect and play padel with.</p>
                 </div>
                 <div class="inline-block">
-                    <p>All you need to do is to fill in a <a href="find-match.html">form</a> to tell us about your
+                    <p>All you need to do is to fill in a <a href="find-match.html" aria-label="Links to Find Player page to fill in the form">form</a> to tell us about your
                         prefered
                         date, time, place and skill level and wait. We will let you know as soon as your match is full
                         and
@@ -70,7 +70,7 @@
 
                 <form class="center-form">
                     <input type="button" value="Find Players" id="Find-players-button"
-                        onclick="window.location.href='find-match.html'">
+                        onclick="window.location.href='find-match.html'" aria-label="Opens the Find Player page to fill in the form">
                 </form>
             </div>
         </section>
