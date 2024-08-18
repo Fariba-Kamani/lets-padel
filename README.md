@@ -274,7 +274,7 @@ HTML, CSS
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [Favicon.io](https://favicon.io/) To create favicon.
+* [Favicon generator](https://realfavicongenerator.net/) To create favicon.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 

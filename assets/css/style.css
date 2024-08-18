@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-    background: url('../images/padel-court-header.webp') no-repeat center 25% / cover;
+    background: url('../images/new-header-padel-court\ .webp') no-repeat 100% center / cover;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -48,6 +48,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(250, 250, 243);
+    background-color: rgba(1, 1, 21, .2);
 }
 
 /* Navigation menu */
