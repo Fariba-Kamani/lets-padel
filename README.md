@@ -104,7 +104,7 @@ Both fonts will fall back to sans-serif in case the imported google fonts don't 
 
 ### Imagery
 
-All images that have been used on the website have been resized, using [Image Resizer.com](https://imageresizer.com/), converted to web.p format using [FreeConver](https://www.freeconvert.com/jpg-to-webp) and compressed using [tinify](https://tinypng.com/) to be optimized for using on the website and help loading the website faster for the users.
+All images that have been used on the website have been resized, using [Image Resizer.com](https://imageresizer.com/), converted to webp format using [FreeConver](https://www.freeconvert.com/jpg-to-webp) and compressed using [tinify](https://tinypng.com/) to be optimized for using on the website and help loading the website faster for the users.
 
 The headers on all three pages have a background image of a padel court taken from, https://psauction.com/item/view/975429/mobil-komplett-padelbana-instantpadel-duo-10x20m-ny-och-ej-monterad, to give the user the same feeling as being on the padel court.
 
@@ -242,10 +242,9 @@ I have been mindful during coding to ensure that any one can understand my websi
 * Semantic structural elements such as nav, header, section, footer has been used to provide screen readers with important information that can be conveyed to their users.
 * UI controls such as links, buttons and form have been used to allow the user to interact with the website and they can, by browser default, be accessed by using a keyboard or by clicking the tab key to jump from one UI control to another.
 * Form labels have been used so that the screen readers can clearly label input fields for their users.
+* Aria-label attribute has been used for making more sence of icons, links, background images and interactive elements for the screen reader users.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Sans serif font for the site - these fonts are suitable for people with dyslexia.
-* Ensuring that there is a sufficient colour contrast throughout the site.
-
+* Using a sensible font, font sizes, line heights, color contrast for the text content and sticking to common conventions to make the website intuitive, easy to read and follow for all users.
 
 - - -
 
@@ -253,7 +252,7 @@ I have been mindful during coding to ensure that any one can understand my websi
 
 ### Languages Used
 
-HTML, CSS, ...
+HTML, CSS
 
 ### Frameworks, Libraries & Programs Used
 
@@ -269,13 +268,18 @@ HTML, CSS, ...
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [TinyPNG](https://tinypng.com/) To compress images
-
 * [Favicon.io](https://favicon.io/) To create favicon.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
+
+* [Tinify](https://tinypng.com/) To compress images
+
+* [Image Resizer.com](https://imageresizer.com/) To resize and compress images. 
+
+* [FreeConver](https://www.freeconvert.com/jpg-to-webp) To convert the images to webp format.
+ 
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
