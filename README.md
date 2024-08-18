@@ -330,9 +330,9 @@ To clone the repository:
 ### Automated testing
 
 #### W3C Validator
-  - HTML: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+  - HTML: No errors were returned for index.html, find-match.html and gallery.html when passing through the official [W3C validator](https://validator.w3.org/).
 
-  - CSS: [(Jigsaw validator)]()
+  - CSS: No errors were found for style.css when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
 
 #### Lighthouse
 
@@ -340,19 +340,32 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ##### Desktop Results
 
-![index.html](assets/images/lighthouse-home-desktop.png)
+  * Home page
 
-![find-match.html]()
+    ![index.html](assets/images/lighthouse-home-desktop.png)
+  
+  * Find Players page
 
-![gallery.html]()
+    ![find-match.html](assets/images/lighthouse-find-players-page-desktop.png)
+  
+  * Gallery page
+
+    ![gallery.html](assets/images/lighthouse-gallery-page-desktop.png)
 
 ##### Mobile Results
 
-![index.html]()
+ * Home page
 
-![find-match.html]()
+    ![index.html](assets/images/lighthouse-home-mobile.png)
+  
+  * Find Players page
 
-![gallery.html]()
+    ![find-match.html](assets/images/lighthouse-find-player-page-mobile.png)
+  
+  * Gallery page
+
+    ![gallery.html](assets/images/lighthouse-gallery-page-mobile.png)
+
 
 
 
