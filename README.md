@@ -170,6 +170,7 @@ All Pages on the website are responsive and have:
   ![footer](assets/images/footer.png)
 
 * White shadow underneath the navigation bar and above the footer to add more distinction between them and the body content for the user.
+
   ![White box show seperating the header and the footer from the body](assets/images/white-box-shadow.png)
 
 #### The Home Page
@@ -333,7 +334,6 @@ Chrome developer tools were also used to ensure that the project is responsive, 
 
 The website has been tested on Chrome, Microsoft Edge and Safari. 
 
-
 ### Automated testing
 
 #### W3C Validator
@@ -374,12 +374,53 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
     ![gallery.html](assets/images/lighthouse-gallery-page-mobile.png)
 
-
-
-
-
-
 ### Manuall testing
+
+  * **Common features on all pages**
+
+  | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Favicon for the browser tab | To show on the browser tab | Opened the website | It shows on the browser tab | Pass |
+| Website title | To links the user back to Home page | Clicked on link | It links back to Home page | Pass |
+| Website title hover effect | To become yellow by hover on for desktops | Hovered on link | It turns yellow | Pass |
+| Dropdown navigation menu for mobiles | To drop down when clicked on | Clicked on navigation icon | navigation menu drops down | Pass |
+| Fixed navigation bar with navigation menu on screens larger than tablets | To show on screens larger than tablets | Checked on screens larger than tablets | It shows as expected | Pass |
+| navigation links | To direct the user to related pages | Clicked on navigation links | They all direct to their related pages | Pass |
+| Showing the active page in the navigation bar with an underline | To underline the related navigation link for the active page | Clicked on the links | The related link to the active page becomes underlined | Pass |
+| Navigation links hover effect | To become yellow with a yellow underline by hover on for desktops | Hovered on links | They turn yellow and a yellow underline appears | Pass |
+| Footer link icons | To open in a seperate tab | Clicked on each icon | They all direct to their related links openning in a new tab | Pass |
+| Footer icons hover effect | To turn yellow on hover for desktops | Hovered on | They turn yellow when hovered on | Pass |
+
+* **Home page**
+
+ | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Responsive content in About section |  The paragraphs show in columns in screens larger than tablets | Opened Home page on larger screens | Content shows in three column | Pass |
+| form link | To direct to Find Players page | Clicked on link | Find Player page opens | Pass |
+| Find Players button | To direct to Find Players page | Clicked on Find Players button | Find Players page opens | Pass |
+| Find Players button hover effect for desktops | To turn into white text and blue background when hovered on | Hovered on button | Text turns white while button background turns blue | Pass |
+| Responsive content on Padel Benefits section for screens larger than tablets | The list centers in the page | Opened on screens larger than tablets | The list centers | Pass |
+
+* **Find Players page**
+
+ | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Submit form | To require enteries on every field | Tried submitting without enteries | Doesn't submit and requires enteries | Pass |
+| Submit form | To accept enteries only in correct format for every field | Entered wrong enterie format | Doesn't submit and requires correction | Pass |
+| Vamos! button | To submit the form successfully | Clicked on Vamos! button | Submits the form and shows all the data sent to server | Pass |
+| Fieldset border and legends display on mobiles | Hidden border and left-aligned legends | Opened on mobile | Shows as expected | Pass |
+| Fieldset border and legends display on screens larger than tablets | To displays dotted blue border and center-aligned legends | Opened on screens larger than tablets | Shows as expected | Pass |
+| Vamos! button hover effect for desktops| To turn into white text and blue background when hovered on | Hovered over the Vamos! button| Text turns white while button background turns blue | Pass |
+
+
+* **Gallery page**
+
+ | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Gallery images on mobiles | To show in a single column | Checked on mobile | Shows in a single column | Pass |
+| Gallery images on tablets | To show in three columns | Checked on tablet sized screens | Shows in three columns | Pass |
+| Gallery images on desktops | To show in four coulmns | Checked on desktops | Shows in four columns | Pass |
+| Gallery images hover effect for desktops | The image to come forward and become bigger | Hovered on gallery images | Each comes forward and become larger | Pass |
 
 ### Solved Bugs
 
