@@ -154,7 +154,8 @@ main {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 18px;
-    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: black;
     border: 2px solid rgb(18, 128, 223);
     border-radius: 3px;
     padding: 0.5rem;
