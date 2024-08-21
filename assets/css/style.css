@@ -107,13 +107,6 @@ main {
     display: flex;
     flex-direction: column;
 }
-
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    }
-
 /* Adding section one to the main on the first page */
 #section-one {
     text-align: center;
@@ -311,14 +304,10 @@ footer {
 }
 /* specific CSS for iOS devices */
 @supports (-webkit-touch-callout: none) { 
-    .ios-style {
-    width: 90%;
-    height: 25px;
-    margin: 8px 5% 8px 5%;
-    border: 1px solid rgb(18, 128, 223);
-    border-radius: 2px;
-    padding: 0 8px;
-
+    .ios-style .submit {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
     }
 
  }
