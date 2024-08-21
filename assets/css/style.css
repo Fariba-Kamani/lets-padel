@@ -204,6 +204,10 @@ main {
     text-align: center;
 }
 
+input[type=submit], input[type=date], input[type=time] { -webkit-appearance:none; 
+    -moz-appearance: none;
+    appearance: none;} 
+
 #find-match-form input,
 #find-match-form select {
     width: 90%;
@@ -304,13 +308,12 @@ footer {
 }
 /* specific CSS for iOS devices */
 @supports (-webkit-touch-callout: none) { 
-    .ios-style .submit {
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
+    input[type=submit], input[type=date], input[type=time] { -webkit-appearance:none; 
+        -moz-appearance: none;
+        appearance: none;} 
     }
 
- }
+
 
 
 /* Media query: large or landscape phones (576px and up)*/
