@@ -52,27 +52,27 @@
             <form id="find-match-form" method="get" action="submit.html">
                 <fieldset id="fieldset-one">
                     <legend>How do we reach you?</legend>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" pattern="^[a-zA-Z]{2,20}\s[a-zA-Z]{2,20}$" placeholder="Name Surname" required>
                     <br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="name@domain.com" required>
                     <br>
-                    <label for="mobile">Mobile:</label>
-                    <input type="tel" id="mobile" name="mobile" placeholder="07xxxxxxxx" required>
+                    <label for="mobile">Mobile*</label>
+                    <input type="tel" id="mobile" name="mobile" pattern="^07[0-9]{8}" placeholder="10 digits, start with 07" required>
                 </fieldset>
                 <fieldset id="fieldset-two" class="inline-block-form">
                     <legend>About the match</legend>
-                    <label for="match-date">Date:</label>
+                    <label for="match-date">Date*</label>
                     <input type="date" id="match-date" name="date" required>
                     <br>
-                    <label for="start-time">Start time:</label>
-                    <input type="time" id="start-time" name="start-time" required>
+                    <label for="start-time">Start time</label>
+                    <input type="time" id="start-time" name="start-time">
                     <br>
-                    <label for="end-time">End time:</label>
-                    <input type="time" id="end-time" name="end-time" required>
+                    <label for="end-time">End time</label>
+                    <input type="time" id="end-time" name="end-time">
                     <br>
-                    <label for="center">Center:</label>
+                    <label for="center">Center*</label>
                     <select name="center" id="center" required>
                         <option value="" label="Please choose a center"></option>
                         <option value="j-padel-club">Järfälla Padel Club</option>
@@ -83,10 +83,10 @@
                         <option value="balsta-tennis">Bålsta Tennis & Padel</option>
                     </select>
                     <br>
-                    <label for="level">Skill level:</label>
+                    <label for="level">Skill level*</label>
                     <input type="number" id="level" placeholder="1-10" min="1" max="10" name="skill-level" required>
                     <br>
-                    <label for="players">How many more players do you need?</label>
+                    <label for="players">How many players are required?*</label>
                     <input type="number" id="players" min="1" value="3"  name="players-count" required>
                 </fieldset>
                 <button type="submit" class="submit" aria-label="Submit button">Vamos!</button>

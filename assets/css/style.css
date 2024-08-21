@@ -27,7 +27,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    height: 120px;
+    height: 140px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -60,6 +60,7 @@ h1 {
 #menu>li {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    line-height: 1.5rem;
 }
 
 /*Give a visual cue to the active page*/
@@ -216,6 +217,7 @@ main {
 
 #find-match-form label {
     margin-left: 5%;
+    
 }
 
 #find-match-form fieldset {
