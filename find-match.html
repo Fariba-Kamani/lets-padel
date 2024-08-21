@@ -64,13 +64,13 @@
                 <fieldset id="fieldset-two" class="inline-block-form">
                     <legend>About the match</legend>
                     <label for="match-date">Date*</label>
-                    <input type="date" id="match-date" name="date" required>
+                    <input type="date" id="match-date" name="date" class="ios-style" required>
                     <br>
                     <label for="start-time">Start time</label>
-                    <input type="time" id="start-time" name="start-time">
+                    <input type="time" id="start-time" name="start-time" class="ios-style">
                     <br>
                     <label for="end-time">End time</label>
-                    <input type="time" id="end-time" name="end-time">
+                    <input type="time" id="end-time" name="end-time" class="ios-style">
                     <br>
                     <label for="center">Center*</label>
                     <select name="center" id="center" required>
@@ -86,10 +86,10 @@
                     <label for="level">Skill level*</label>
                     <input type="number" id="level" placeholder="1-10" min="1" max="10" name="skill-level" required>
                     <br>
-                    <label for="players">How many players are required?*</label>
+                    <label for="players">Required players*</label>
                     <input type="number" id="players" min="1" value="3"  name="players-count" required>
                 </fieldset>
-                <button type="submit" class="submit" aria-label="Submit button">Vamos!</button>
+                <input type="submit" name="submit" value="Vamos!" class="submit" aria-label="Submit button">
             </form>
         </section>
     </main>
