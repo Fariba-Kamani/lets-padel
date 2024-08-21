@@ -108,6 +108,12 @@ main {
     flex-direction: column;
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+
 /* Adding section one to the main on the first page */
 #section-one {
     text-align: center;
