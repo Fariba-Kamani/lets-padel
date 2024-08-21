@@ -259,6 +259,28 @@ main {
     line-height: 0;
 }
 
+/* Styling the submit page */
+#submit-page {
+    width: 75%;
+    height: 50%;
+    margin: auto auto;
+    padding: 1rem;
+    background-color: aliceblue;
+    text-align: center;
+
+}
+#submit-page h2 {
+    margin-top: 1.5 rem;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+}
+#submit-page p {
+    line-height: 1.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: larger;
+}
+
 /* Footer */
 footer {
     background-color: rgb(18, 128, 223);
