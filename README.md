@@ -328,11 +328,13 @@ To clone the repository:
 
 ## Testing
 
-Testing was ongoing throughout the entire project developement. Chrome developer tools were used whilst building to find and resolve any issues that came along and to ensure everything was working correctly as expected.
+Testing was ongoing throughout the entire project developement. Chrome developer tools were used whilst building to find and resolve any issues that came along and to ensure that everything was working correctly as expected.
 
 Chrome developer tools were also used to ensure that the project is responsive, looks good and functions as it should on all standard screen sizes.
 
-The website has been tested on Chrome, Microsoft Edge and Safari. 
+The website has been tested on following browsers; Chrome, Microsoft Edge and Safari. Devices I have tested the project on are VivoBook Asus laptop, iPhone 13, iphone 14 och Samsung Galaxy A14.
+
+Additional testing was done by a few friends on both Android and iOS mobile devices. 
 
 ### Automated testing
 
@@ -405,12 +407,13 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
  | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Submit form | To require enteries on every field | Tried submitting without enteries | Doesn't submit and requires enteries | Pass |
+| Submit form | To require enteries on all fields marked with asterisk | Tried submitting without enteries | Doesn't submit and requires enteries | Pass |
 | Submit form | To accept enteries only in correct format for every field | Entered wrong enterie format | Doesn't submit and requires correction | Pass |
 | Vamos! button | To submit the form successfully | Clicked on Vamos! button | Submits the form and shows all the data sent to server | Pass |
 | Fieldset border and legends display on mobiles | Hidden border and left-aligned legends | Opened on mobile | Shows as expected | Pass |
 | Fieldset border and legends display on screens larger than tablets | To displays dotted blue border and center-aligned legends | Opened on screens larger than tablets | Shows as expected | Pass |
 | Vamos! button hover effect for desktops| To turn into white text and blue background when hovered on | Hovered over the Vamos! button| Text turns white while button background turns blue | Pass |
+| Submit page | To open after submitting the form successfully | Filled in the form correctly and clicked on submit (Vamos!) button | User sends to submit page | Pass |
 
 
 * **Gallery page**
@@ -424,8 +427,12 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Solved Bugs
 
+An issue was reported after some friends with iPhone mobiles had tested the website. The text content "Vamos!" wasn't showing on the submit button on Find Player page in iphone devices. Trouble shooting for this problem was quite hard and time consuming as the submit button was performing just as expected on all screen sizes in Chrome developer tools and the issue was very specific to iPhones. I solved this issue at last by moving the styles targetting the submit button above the styles targetting the input and selection fields in style.css. 
+
 
 ### Known Bugs
+
+The fields related to input type="date" and input type="time" don't follow the CSS styles intended for them when showed on iphone mobiles. After spending so much time trying to troubleshoot and find a solution to this issue, discussing it with my mentor and tutors; it seems like this might have occured due to iOS safari compatibility and the fact that input time and date are not fully supported in all browsers. I decided to accept the fact that these input fields appear slightly different when displayed on iphones for now.
 
 - - -
 
