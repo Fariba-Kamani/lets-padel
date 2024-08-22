@@ -48,33 +48,35 @@
     <main>
         <section id="find-match">
             <h2><i class="fa-solid fa-magnifying-glass"></i> Let's find you some padel players!</h2>
-            <p>Please make your request below and we will contact you as soon as your match is full.</p>
+            <p>Please make your request below and make sure to fill in the required fields marked with (*).</p>
             <form id="find-match-form" method="get" action="submit.html">
-                <!-- <fieldset id="fieldset-one"> -->
-                    <!-- <legend>How do we reach you?</legend> -->
-                    <label for="name">Name*</label>
+                 <fieldset id="fieldset-one">
+                    <legend>How do we reach you?</legend>
+                    <label for="name" class="required">Full Name</label>
+                    <!-- Using regex to make sure the user enters a valid name and surname with a space in between -->
                     <input type="text" id="name" name="name" pattern="^[a-zA-Z]{2,20}\s[a-zA-Z]{2,20}$"
                         placeholder="Name Surname" required>
                     <br>
-                    <label for="email">Email*</label>
+                    <label for="email" class="required">Email</label>
                     <input type="email" id="email" name="email" placeholder="name@domain.com" required>
                     <br>
-                    <label for="mobile">Mobile*</label>
+                    <label for="mobile" class="required">Mobile</label>
+                    <!-- Using regex to ensure that the user enters a valid mobile number in Sweden -->
                     <input type="tel" id="mobile" name="mobile" pattern="^07[0-9]{8}"
                         placeholder="10 digits, start with 07" required>
-                <!-- </fieldset> -->
-                <!-- <fieldset id="fieldset-two" class="inline-block-form"> -->
-                    <!-- <legend>About the match</legend> -->
-                    <label for="match-date">Date*</label>
-                    <input type="date" id="match-date" name="date" class="ios-style" required>
+                </fieldset>
+                <fieldset id="fieldset-two" class="inline-block-form">
+                    <legend>About the match</legend>
+                    <label for="match-date" class="required">Date</label>
+                    <input type="date" id="match-date" name="date" required>
                     <br>
                     <label for="start-time">Start time</label>
-                    <input type="time" id="start-time" name="start-time" class="ios-style">
+                    <input type="time" id="start-time" name="start-time">
                     <br>
                     <label for="end-time">End time</label>
-                    <input type="time" id="end-time" name="end-time" class="ios-style">
+                    <input type="time" id="end-time" name="end-time">
                     <br>
-                    <label for="center">Center*</label>
+                    <label for="center" class="required">Center</label>
                     <select name="center" id="center" required>
                         <option value="" label="Please choose a center"></option>
                         <option value="j-padel-club">Järfälla Padel Club</option>
@@ -85,13 +87,13 @@
                         <option value="balsta-tennis">Bålsta Tennis & Padel</option>
                     </select>
                     <br>
-                    <label for="level">Skill level*</label>
+                    <label for="level" class="required">Skill level</label>
                     <input type="number" id="level" placeholder="1-10" min="1" max="10" name="skill-level" required>
                     <br>
-                    <label for="players">Required players*</label>
+                    <label for="players" class="required">Required players</label>
                     <input type="number" id="players" min="1" value="3" name="players-count" required>
 
-                <!-- </fieldset> -->
+                 </fieldset>
                 <button type="submit" name="submit" class="submit" aria-label="Submit button">Vamos!</button>
             </form>
         </section>

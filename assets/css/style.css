@@ -187,9 +187,9 @@ main {
     background-color: aliceblue;
     padding: 30px;
     /* Using flexbox in order to be able to center the vamos-button in the form */
-   /* display: flex;
-    flex-direction: column;*/
-    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -204,6 +204,26 @@ main {
     text-align: center;
 }
 
+.submit {
+    /*centering the Vamos-button using flexbox*/
+    align-self: center;
+    margin: 8px 20% 8px 20%;
+    border: 2px solid rgb(18, 128, 223);
+    border-radius: 3px;
+    padding: 0.5rem;
+    box-shadow: 0 0 3px rgb(18, 128, 223);   
+}
+
+#find-match-form label {
+    margin-left: 5%;    
+}
+
+/* To show the user which fields are required */
+.required::after {
+    content:" *";
+    color: rgb(18, 128, 223);
+}
+
 #find-match-form input,
 #find-match-form select {
     width: 90%;
@@ -212,11 +232,6 @@ main {
     border: 1px solid rgb(18, 128, 223);
     border-radius: 2px;
     padding: 0 8px;
-}
-
-#find-match-form label {
-    margin-left: 5%;
-    
 }
 
 #find-match-form fieldset {
@@ -228,19 +243,6 @@ main {
 
 #find-match-form legend {
     font-weight: bold;
-}
-
-.submit {
-    /*centering the Vamos-button using flexbox*/
-   /* align-self: center;
-    margin: 8px 20% 8px 20%;
-    border: 2px solid rgb(18, 128, 223);
-    border-radius: 3px;
-    padding: 0.5rem;
-    box-shadow: 0 0 3px rgb(18, 128, 223);*/
-    background-color: white;  
-    font-size: 100%;
-    color: black;
 }
 
 /* Gallery page */
