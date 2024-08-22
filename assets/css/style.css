@@ -107,6 +107,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 /* Adding section one to the main on the first page */
 #section-one {
     text-align: center;
@@ -144,7 +145,7 @@ main {
 
 #section-two a {
     color: rgb(44, 36, 155);
-} 
+}
 
 .center-form {
     text-align: center;
@@ -189,8 +190,6 @@ main {
     /* Using flexbox in order to be able to center the vamos-button in the form */
     display: flex;
     flex-direction: column;
-    
-
 }
 
 #find-match>h2 {
@@ -213,16 +212,16 @@ main {
     padding: 0.5rem;
     box-shadow: 0 0 3px rgb(18, 128, 223);
     background-color: white;
-    color: black;   
+    color: black;
 }
 
 #find-match-form label {
-    margin-left: 5%;    
+    margin-left: 5%;
 }
 
 /* To show the user which fields are required */
 .required::after {
-    content:" *";
+    content: " *";
     color: rgb(18, 128, 223);
 }
 
@@ -253,6 +252,7 @@ main {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
+
 /* Solving the overflow issue on mobile screen by setting the img width to 100% */
 #images img {
     width: 100%;
@@ -275,11 +275,13 @@ main {
     text-align: center;
 
 }
+
 #submit-page h2 {
     margin-top: 1.5 rem;
     margin-bottom: 1.5rem;
     line-height: 2rem;
 }
+
 #submit-page p {
     line-height: 1.5rem;
     margin-top: 2rem;
@@ -464,11 +466,13 @@ footer {
     #section-two input:hover {
         background-color: rgb(18, 128, 223);
         color: white;
+        cursor: pointer;
     }
 
     .submit:hover {
         background-color: rgb(18, 128, 223);
         color: white;
+        cursor: pointer;
     }
 
     /*Gallery masonry design for images*/
