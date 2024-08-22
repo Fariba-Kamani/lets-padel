@@ -50,8 +50,8 @@
             <h2><i class="fa-solid fa-magnifying-glass"></i> Let's find you some padel players!</h2>
             <p>Please make your request below and we will contact you as soon as your match is full.</p>
             <form id="find-match-form" method="get" action="submit.html">
-                <fieldset id="fieldset-one">
-                    <legend>How do we reach you?</legend>
+                <!-- <fieldset id="fieldset-one"> -->
+                    <!-- <legend>How do we reach you?</legend> -->
                     <label for="name">Name*</label>
                     <input type="text" id="name" name="name" pattern="^[a-zA-Z]{2,20}\s[a-zA-Z]{2,20}$"
                         placeholder="Name Surname" required>
@@ -62,9 +62,9 @@
                     <label for="mobile">Mobile*</label>
                     <input type="tel" id="mobile" name="mobile" pattern="^07[0-9]{8}"
                         placeholder="10 digits, start with 07" required>
-                </fieldset>
-                <fieldset id="fieldset-two" class="inline-block-form">
-                    <legend>About the match</legend>
+                <!-- </fieldset> -->
+                <!-- <fieldset id="fieldset-two" class="inline-block-form"> -->
+                    <!-- <legend>About the match</legend> -->
                     <label for="match-date">Date*</label>
                     <input type="date" id="match-date" name="date" class="ios-style" required>
                     <br>
@@ -91,8 +91,8 @@
                     <label for="players">Required players*</label>
                     <input type="number" id="players" min="1" value="3" name="players-count" required>
 
-                </fieldset>
-                <input type="button" name="submit" value="Vamos!" class="submit" aria-label="Submit button">
+                <!-- </fieldset> -->
+                <input type="submit" name="submit" value="Vamos!" class="submit" aria-label="Submit button">
             </form>
         </section>
     </main>
