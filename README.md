@@ -92,7 +92,7 @@ The background colour for the sections in the body is alternating between white 
 
 Button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) are the same blue as in the header image and the footer, rgb(18, 128, 223), making the design adhesive to the rest of the website colour scheme while at the same time noticable to the users eyes.
 
-![The Let's Padel Color Scheme](assets/images/Lets-padel-color-scheme.png)
+![The Let's Padel Color Scheme](assets/images/lets-padel-color-scheme.png)
 
 ### Typography
 
