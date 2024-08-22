@@ -187,8 +187,8 @@ main {
     background-color: aliceblue;
     padding: 30px;
     /* Using flexbox in order to be able to center the vamos-button in the form */
-    display: flex;
-    flex-direction: column;
+   /* display: flex;
+    flex-direction: column;*/
     font-family: Arial, sans-serif;
 
 }
