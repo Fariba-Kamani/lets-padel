@@ -211,7 +211,9 @@ main {
     border: 2px solid rgb(18, 128, 223);
     border-radius: 3px;
     padding: 0.5rem;
-    box-shadow: 0 0 3px rgb(18, 128, 223);   
+    box-shadow: 0 0 3px rgb(18, 128, 223);
+    background-color: white;
+    color: black;   
 }
 
 #find-match-form label {
