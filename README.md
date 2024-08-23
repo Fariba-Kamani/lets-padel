@@ -113,7 +113,7 @@ All images used on the website have been resized using [Image Resizer.com](https
 
 The headers on all three pages have a background image of a padel court taken from, https://psauction.com/item/view/975429/mobil-komplett-padelbana-instantpadel-duo-10x20m-ny-och-ej-monterad, to give the user the same feeling as being on the padel court.
 
-You can see the URLs where the images on the Gallery page are taken from in the list below. All has given an alt attribute for text to be displayed if the image file does not load, and to describe the image on screen readers for visually impaired users.
+You can see the URLs from which the images on the Gallery page are taken, in the list below. All of them have an alt attribute to display text if the image file doesn’t load, and to describe the image for screen readers used by visually impaired users.
 
 * https://thumbs.dreamstime.com/b/serious-middle-aged-latin-man-tennis-player-playing-padel-friendly-match-outdoor-court-spring-focused-hitting-ball-267446063.jpg
 * https://www.vanguardlawmag.com/wp-content/uploads/2024/04/IMG_5960.jpg
@@ -137,15 +137,15 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 ### Features
 
-The website is comprised of a home page, a Find Players page and a Gallery page.
+The website consists of a home page, a Find Players page and a Gallery page.
 
-All Pages on the website are responsive and have:
+All Pages on the website are responsive and have the following features:
 
 * A favicon in the browser tab.
 
   ![favicon](assets/images/favicon-tab.png)
 
-* The title of the site at the top of every page. This title also acts as a link back to the home page, which turns into Saffron yellow colour when hovered on, on desktop screens.
+* The title of the site at the top of every page. This title also acts as a link back to the home page, and it turns into a saffron yellow color when hovered over on desktop screens.
 
   ![The Let's Padel Title](assets/images/title-link-to-homepage.png)
   ![The Let's Padel Title responsive](assets/images/title-hover-desktop.png)
@@ -159,12 +159,12 @@ All Pages on the website are responsive and have:
   
     ![navigation menu for screens larger than tablets with underlined active page](assets/images/responsive-nav-menu-active-page.png)
 
-  * **Navigation links turn into Saffron yellow colour with the same colour underline when hovered on, on desktop screens** 
+  * **Navigation links turn into Saffron yellow color with an underline of the same color when hovered over on desktop screens** 
 
     ![navigation menu links on hover](assets/images/responsive-nav-links-by-hover.png)
   
 
-* The footer of the site at the bottom of every page holding links to the website facebook, instagram, email and phone showing with font fantastic icons. Each icon turns into Saffron yellow colour when hovered on, on desktop screens.
+* The footer of the site, located at the bottom of every page, features links to the website’s Facebook, Instagram, email, and phone. These links are displayed using Font Awesome icons. When hovered over on desktop screens, each icon changes to a Saffron yellow color.
 
   ![footer](assets/images/footer.png)
 
