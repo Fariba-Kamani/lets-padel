@@ -233,6 +233,7 @@ main {
     border: 1px solid rgb(18, 128, 223);
     border-radius: 2px;
     padding: 0 8px;
+    color: black;
 }
 
 #find-match-form fieldset {

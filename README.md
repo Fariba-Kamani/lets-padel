@@ -47,7 +47,6 @@ The way the website works is very straight forward and intuitive. All it is need
 * [Credits](#credits)
   * [Code Used](#code-used)
   * [Content](#content)
-  * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
 - - -
@@ -226,8 +225,6 @@ All Pages on the website are responsive and have:
 
     ![gallery images hovered on for desktop](assets/images/hovered-on-gallery-img-desktop.png)
 
-
-
 #### Future Implementations
 
 In future implementations I would like to:
@@ -259,7 +256,7 @@ I have been mindful during coding to ensure that any one can understand my websi
 
 ### Languages Used
 
-HTML, CSS
+HTML and CSS
 
 ### Frameworks, Libraries & Programs Used
 
@@ -429,6 +426,8 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 An issue was reported after some friends with iPhone mobiles had tested the website. The text content "Vamos!" wasn't showing on the submit button on Find Player page in iphone devices. Trouble shooting for this problem was quite hard and time consuming as the submit button was performing just as expected on all screen sizes in Chrome developer tools and the issue was very specific to iPhones. I solved this issue at last by moving the styles targetting the submit button above the styles targetting the input and selection fields in style.css. 
 
+Another issue occured after I created my initial README.md file on Github and not directly in my IDE workspace and commited the changes on Github. After that I was not able to add, commit or push the changes on my workspace and needed to pull to origin and get help from a Code Institute tutor to be able the merge the README.md file I had created and commited to the repository remote and from outside of the IDE.
+
 
 ### Known Bugs
 
@@ -440,15 +439,27 @@ The fields related to input type="date" and input type="time" don't follow the C
 
 ### Code Used
 
+Throughout the entire project developement I have used the Code Institute course material for HTML and CSS. I have used the tutorials for Love Running walkthrough project represented on the course in order to set up and get started with my project properly, make a dropdown navigation menu using checkbox for mobile screens and make a masonry design for how the images display on the Gallery page.
 
+I have used [Stack Overflow](stackoverflow.com) to get some ideas for how to use regular expression in order to define patterns for the form input validation of input type="text" and input type="tel".
+
+I have as well used the tutor support for how to link to email and phone number in the footer in a way that the user will be linked to user's email client with a specified recipient by using the code <a href="mailto:someone@example.com"></a> and trigger a phone call (for mobiles) by clicking the phone icon link in the footer, using the code <a href="tel:phone-number"></a>. 
 
 ### Content
 
+For documentation and creating my README.md file I have taken inspiration from the sample README.md file that my mentor shared with me [The Quiz Arms](https://github.com/kera-cudmore/TheQuizArms/blob/main/README.md) as well as the README.md sample available on the course for Portfolio 1: Assessments Guide Preview.
 
-### Media
+I used this article available at google fonts in order to understand the critera for choosing a proper font type, [A checklist for choosing type](https://fonts.google.com/knowledge/choosing_type/a_checklist_for_choosing_type).
 
+All the imagery that have been used and where I have taken them from are mentioned under [Imagery](#imagery).
 
 ### Acknowledgments
+
+I would like to acknowledge
+
+* My Code Institute mentor Jubril Akulade for reviewing my project and inspiring me to improve my website.
+* The Code Institute tutor team for being available and guiding me whenever I was too stuck troubleshooting the issues during the developement of my project.
+* My partner and my friends for taking the time and testing my website on their devices and giving me constructive feedback.
 
 
 
