@@ -6,7 +6,7 @@ Visit the deployed site: [Let's Padel](https://fariba-kamani.github.io/lets-pade
 
 Let's Padel is a growing community for everyone who loves playing Padel regardless of gender, age, or skill level. As a padel player myself I usually struggle to find other people to play with when I have spare time and can play. I would have played Padel more often if I had access to more Padel players beyond those in my contact list. I thought this could as well be one of the obstacles for other Padel players like me out there. By creating Let's Padel I am trying to address this issue and help facilitate for Padel players to find and connect and hopefully be able to play Padel as often as they desire.
 
-The way the website works is very straightforward and intuitive. All that needs to be done is for the player to fill in a form, informing us about when and where she/he wants to play, the skill level the player has, and how many players are needed to be able to play a match. We will then try to find other players with the same preferences. Once we have identified all the necessary players, we will reach out to them using the contact details provided in the submitted form.”
+The way the website works is very straightforward and intuitive. All that needs to be done is for the player to fill in a form, informing us about when and where she/he wants to play, the skill level the player has, and how many players are needed to be able to play a match. We will then try to find other players with the same preferences. Once we have identified all the necessary players, we will reach out to them using the contact details provided in the submitted form.
 
 ## CONTENTS
 
@@ -57,21 +57,21 @@ The way the website works is very straightforward and intuitive. All that needs 
 
 
 #### First Time Visitor Goals
-* I would like to try padel or play padel occasionally and I want to find people to play with.
-* I have different schedule from my padel friends and I want to find other padel players who have similar schedule to me.
+* I would like to try Padel or play Padel occasionally, and I want to find people to play with.
+* I have a different schedule from my padel friends, so I’m looking for other padel players who have a similar schedule to mine.
 * I want the website to be intuitive and easy to use.
-* I want the website to be compatible and responsive to my device.
+* I want the website to be responsive and compatible with my device.
 
 #### Returning Visitor Goals
 
-* I want to be able to play padel more frequently and I want to be able to find players on a more regular basis.
-* I want that even if I spontaneously decide to play padel, I still know there is a high chance I could find other players to play with by using the website.
+* I want to be able to play Padel more frequently, and I want to find players on a more regular basis.
+* Even if I spontaneously decide to play padel, I still want to know that there is a high chance I could find other players to play with by using the website.
 
 #### Frequent Visitor Goals
 
 * I want to be able to see what matches other players have requested and be able to independently join their matches.
-* I want to be able to have an account on the website and be able to keep connected to my padel friends via the website.
-* I want to be able to independently upload pictures taken from my padel experiences on the Gallery page.
+* I want to be able to have an account on the website and be able to stay connected to my Padel friends via the website.
+* I want to be able to independently upload pictures taken from my Padel experiences on the Gallery page.
 
 - - -
 
@@ -79,17 +79,17 @@ The way the website works is very straightforward and intuitive. All that needs 
 
 ### Colour Scheme
 
-Let's Padel colour scheme is inspired by the colours usually seen at padel courts all a round in Stockholm which are usually blue, black and white. I wanted to give the user the same feeling as being on the padel court by using the same colours. I tried to keep the colour scheme quite minimal in order to not cause any visuall overload to the users, specially the users with Autism.
+The Let’s Padel color scheme draws inspiration from the hues commonly seen on padel courts throughout Stockholm. These colors typically include blue, black, and white. The goal was to evoke the same feeling as being on a padel court while maintaining a minimalistic design to avoid visual overload, especially for users with Autism.
 
-I have used an image of a padel court as the header background to add visual interest to all pages and since the dominant colour on the image is rgb(18, 128, 223) or #1280DF, that as well dictated the colour of the footer on all the three web pages.
+The header background features an image of a padel court, with the dominant color being rgb(18, 128, 223) or #1280DF. This color choice also influenced the footer color across all three web pages. To ensure readability, the menu bar font and Font Fantastic icons in the footer are white, creating contrast against the blue background.
 
-The menu bar font colour as well as the colour of the Font Fantastic icons in the footer are chosen to be white in order to add contrast and make it easy for the user to see and read against the blue background. The header title has a slightly different white colour rgb(250, 250, 243) or #FAFAF3 to stand out from the other links in the navigation bar and the footer. For desktop size screens a hovering effect has been applied for more interaction with the users which changes the content colour of the header and the footer to rgb(230, 191, 49) or #E6BF31 while still maintaining contrast against their backgrounds.
+ The header title stands out with a slightly different white shade, rgb(250, 250, 243) or #FAFAF3, compared to other links in the navigation bar and footer. For desktop screens, a hovering effect changes the content color of the header and footer to rgb(230, 191, 49) or #E6BF31, maintaining contrast against their backgrounds.
 
-The navigation links are designed in a drop down menu for mobile size screens and open on a transparent rich black background, rgba(1, 1, 21, 0.2), in order to be visiable on the header background image while the image itself remains visiable as well. For tablet and desktop screens I decided to have a navigation bar right underneath the header image to show the navigation links at all time. In order to make the navbar distinguishable from the header image and maintaining contrast with the link colours, I used rgb(44, 36, 155) or #2C249B.
+On mobile screens, navigation links appear in a drop-down menu, opening on a transparent rich black background (rgba(1, 1, 21, 0.2)). This ensures visibility against the header background image while keeping the image itself visible. For tablet and desktop screens, a fixed navigation bar beneath the header image displays the navigation links at all times. To distinguish the navbar from the header image, I used rgb(44, 36, 155) or #2C249B.
 
-The background colour for the sections in the body is alternating between white and Aliceblue to help the user understand when one section ends and the other one begins in a page. Black is used for the font colour on the body to ensure contrast and better visibility.
+The body sections alternate between white and Aliceblue backgrounds, aiding users in understanding where one section ends and another begins. Black is used for the font colour on the body to ensure contrast and better visibility.
 
-Button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) are the same blue as in the header image and the footer, rgb(18, 128, 223), making the design adhesive to the rest of the website colour scheme while at the same time noticable to the users eyes.
+LAstly, button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) share the same blue color as the header image and footer, which is rgb(18, 128, 223). This design creates cohesion with the rest of the website’s color scheme while remaining noticeable to users.
 
 ![The Let's Padel Color Scheme](assets/images/lets-padel-color-scheme.png)
 
