@@ -89,31 +89,32 @@ On mobile screens, navigation links appear in a drop-down menu, opening on a tra
 
 The body sections alternate between white and Aliceblue backgrounds, aiding users in understanding where one section ends and another begins. Black is used for the font colour on the body to ensure contrast and better visibility.
 
-LAstly, button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) share the same blue color as the header image and footer, which is rgb(18, 128, 223). This design creates cohesion with the rest of the website’s color scheme while remaining noticeable to users.
+Lastly, button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) share the same blue color as the header image and footer, which is rgb(18, 128, 223). This design creates cohesion with the rest of the website’s color scheme while remaining noticeable to users.
 
-![The Let's Padel Color Scheme](assets/images/lets-padel-color-scheme.png)
+![The Let's Padel Colour Scheme](assets/images/lets-padel-color-scheme.png)
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+Google Fonts was used to import the chosen fonts for use on the site.
 
 ![Exo 2](assets/images/Title-font.png)
 
-* For the Page title I have used the google font; Exo 2 which is described as a contemporary geometric sans serif typeface by [Google Fonts](https://fonts.google.com/specimen/Exo+2/about?preview.text=LET%27S%20PADEL&preview.size=42). I chose this font for the title because it looks playful and fun which goes well with the agenda of the website.
+* For the page title, I have used the Google font Exo 2, which is described as a contemporary geometric sans serif typeface by [Google Fonts](https://fonts.google.com/specimen/Exo+2/about?preview.text=LET%27S%20PADEL&preview.size=42). I chose this font for the title because it looks playful and fun, which goes well with the agenda of the website.
 
 ![Roboto](assets/images/body-font.png)
 
-* For the body of the page I have used the google font 'Roboto' as it is clean, readable and easy on the eyes to make the user experience as smooth as possible. According to [Google Fonts](https://fonts.google.com/specimen/Roboto/about?query=roboto&selected=Material+Symbols+Outlined:sports_tennis:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368) Roboto is featured in more than 695 million websites and according to [Github](https://github.com/googlefonts/roboto) the font has enough multi language support and it comes in enough weights, styles and alternate glyphs.
+* For the body of the page, I have used the Google font ‘Roboto’ because it is clean, readable, and easy on the eyes, making the user experience as smooth as possible. According to [Google Fonts](https://fonts.google.com/specimen/Roboto/about?query=roboto&selected=Material+Symbols+Outlined:sports_tennis:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368), Roboto is featured in more than 695 million websites. Additionally, according to [Github](https://github.com/googlefonts/roboto), the font provides robust multi-language support and comes in various weights, styles, and alternate glyphs. 
 
-Both fonts will fall back to sans-serif in case the imported google fonts don't load.
+* In case the imported Google fonts don’t load, both fonts will fall back to sans-serif.
 
 ### Imagery
 
-All images that have been used on the website have been resized, using [Image Resizer.com](https://imageresizer.com/), converted to webp format using [FreeConver](https://www.freeconvert.com/jpg-to-webp) and compressed using [tinify](https://tinypng.com/) to be optimized for using on the website and help loading the website faster for the users.
+All images used on the website have been resized using [Image Resizer.com](https://imageresizer.com/), converted to WebP format with [FreeConver](https://www.freeconvert.com/jpg-to-webp) and compressed using [tinify](https://tinypng.com/) to be optimized for using on the website and help loading the website faster for the users.
 
 The headers on all three pages have a background image of a padel court taken from, https://psauction.com/item/view/975429/mobil-komplett-padelbana-instantpadel-duo-10x20m-ny-och-ej-monterad, to give the user the same feeling as being on the padel court.
 
 You can see the URLs where the images on the Gallery page are taken from in the list below. All has given an alt attribute for text to be displayed if the image file does not load, and to describe the image on screen readers for visually impaired users.
+
 * https://thumbs.dreamstime.com/b/serious-middle-aged-latin-man-tennis-player-playing-padel-friendly-match-outdoor-court-spring-focused-hitting-ball-267446063.jpg
 * https://www.vanguardlawmag.com/wp-content/uploads/2024/04/IMG_5960.jpg
 * https://www.lta.org.uk/49d339/siteassets/play/padel/image/woman-playing-padel2.jpg?w=3200"
@@ -122,7 +123,6 @@ You can see the URLs where the images on the Gallery page are taken from in the 
 * https://thepeninsulaqatar.com/get/maximage/20240303_1709445598-694.jpg?1709445599"
 * https://thepadelstate.com/wp-content/uploads/2024/02/Sofia-Arujo-1021x500.jpg
 * https://rutinasdeportivas.es/medios/2017/01/Quieres-saber-cu%C3%A1les-son-los-beneficios-del-p%C3%A1del-y-porque-es-importante-practicarlo-parejas.jpg
-
 
 ### Wireframes
 
@@ -373,7 +373,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
     ![gallery.html](assets/images/lighthouse-gallery-page-mobile.png)
 
-### Manuall testing
+### Manual testing
 
   * **Common features on all pages**
 
