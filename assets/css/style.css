@@ -192,6 +192,11 @@ main {
     flex-direction: column;
 }
 
+input[type="date"], input[type="time"] {
+    width: 90%;
+    height: 25px;
+}
+
 #find-match>h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -213,12 +218,6 @@ main {
     box-shadow: 0 0 3px rgb(18, 128, 223);
     background-color: white;
     color: black;
-}
-
-input[type="date"], input[type="time"] {
-    -webkit-appearance: none;
-    width: 90%;
-    height: 25px;
 }
 
 #find-match-form label {
