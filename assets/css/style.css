@@ -215,7 +215,7 @@ main {
     color: black;
 }
 
-.date-time-iPhone {
+input[type="date"], input[type="time"] {
     width: 90%;
     height: 25px;
 }
