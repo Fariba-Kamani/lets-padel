@@ -216,6 +216,7 @@ main {
 }
 
 input[type="date"], input[type="time"] {
+    -webkit-appearance: none;
     width: 90%;
     height: 25px;
 }
