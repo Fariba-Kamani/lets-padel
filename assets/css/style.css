@@ -192,11 +192,6 @@ main {
     flex-direction: column;
 }
 
-input[type="date"], input[type="time"] {
-    width: 90%;
-    height: 25px;
-}
-
 #find-match>h2 {
     margin-bottom: 20px;
     text-align: center;
