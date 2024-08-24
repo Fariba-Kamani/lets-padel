@@ -215,6 +215,11 @@ main {
     color: black;
 }
 
+.date-time-iPhone {
+    width: 90%;
+    height: 25px;
+}
+
 #find-match-form label {
     margin-left: 5%;
 }
