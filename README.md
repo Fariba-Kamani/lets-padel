@@ -168,7 +168,7 @@ All Pages on the website are responsive and have the following features:
 
   ![footer](assets/images/footer.png)
 
-* White shadow underneath the navigation bar and above the footer to add more distinction between them and the body content for the user.
+* White shadow underneath the navigation bar and above the footer to create more distinction between them and the body content for the user.
 
   ![White box show seperating the header and the footer from the body](assets/images/white-box-shadow.png)
 
@@ -176,16 +176,16 @@ All Pages on the website are responsive and have the following features:
 
 ![Responsive home page](assets/images/homepage-responsive.png)
 
-* **Quick introduction section or the landing section**
+* **The landing section**
 
   ![Landing section](assets/images/landing-section.png)
 
-* **About the website section, its purpose and how it works**
-  * **Find Players button as well as the word "form" in the about the website section that send the users to the Find Players page**
+* **The second section; about the website, its purpose, and how it works.**
+  * **The ‘Find Players’ button, as well as the word ‘form,’ sends users to the Find Players page.**
 
     ![About section](assets/images/about-section.png)
 
-  * **Responsive button that turns blue with white text by hovering on, on desktops**
+  * **Responsive button that turns blue with white text when hovered over on desktops**
   * **Responsive content. The paragraphs show in columns for screens larger than tablets**
 
     ![About section responsive](assets/images/second-section-responsive.png)
@@ -216,12 +216,12 @@ All Pages on the website are responsive and have the following features:
 
 ![the Gallery page responsive](assets/images/gallery-page-responsive.png)
 
-  * **The page title to let users know that they can share their photos**
+  * **The page title to let the users know that they can share their photos**
 
     ![gallery page title](assets/images/gallery-page-title.png)
 
   * **Masonry design for displaying the Gallery photos**
-  * **Added hover effect to gallery images to make them bigger when hovered on**
+  * **Added hover effect to gallery images to make them bigger when hovered over**
 
     ![gallery images hovered on for desktop](assets/images/hovered-on-gallery-img-desktop.png)
 
@@ -229,26 +229,26 @@ All Pages on the website are responsive and have the following features:
 
 In future implementations I would like to:
 
-1. display the matches the users have requested on the website and allowing the other users to be able to send requests to join the available matches while the match hasn't become full.
-2. Uppdating the displayed matches and remove the old ones from the display.
-3. Allowing the user to have an account on the website to be able to 
-   * add other players in their friend list, 
-   * send messages, 
-    * keep a record of the matches that have been played 
-    * be able to see the status of the match they have requested.
+1. Display the matches that users have requested on the website, allowing other users to send requests to join available matches while the match hasn’t become full.
+2. Update the displayed matches and remove old ones from the display.
+3. Allow users to have an account on the website to: 
+   * Add other players to their friend list. 
+   * Send messages. 
+   * Keep a record of played matches. 
+   * View the status of the match they have requested.
 
 ### Accessibility
 
-I have been mindful during coding to ensure that any one can understand my website regardless of auditory, visual or physical disability.
+I have been mindful during coding to ensure that anyone can understand my website, regardless of auditory, visual, or physical disability.
 
-* Semantic HTML has been used to both help the browser to understand the content, also to provide the screen readers with extra functionality to operate by keyboard rather than by a mouse.
-* Semantic text structure such as headings, paragraphs, list, ... has been used to help the screen reader to have the indicators it needs to read out the content in a useful way.
-* Semantic structural elements such as nav, header, section, footer has been used to provide screen readers with important information that can be conveyed to their users.
-* UI controls such as links, buttons and form have been used to allow the user to interact with the website and they can, by browser default, be accessed by using a keyboard or by clicking the tab key to jump from one UI control to another.
-* Form labels have been used so that the screen readers can clearly label input fields for their users.
-* Aria-label attribute has been used for making more sence of icons, links, background images and interactive elements for the screen reader users.
-* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Using a sensible font, font sizes, line heights, color contrast for the text content and sticking to common conventions to make the website intuitive, easy to read and follow for all users.
+* Semantic HTML has been used to help both the browser understand the content and provide screen readers with extra functionality for keyboard operation, rather than relying solely on a mouse.
+* Semantic text structure, such as headings, paragraphs, and lists, has been used to help screen readers provide the indicators they need to read out the content in a useful way.
+* Semantic structural elements, such as nav, header, section, and footer, have been used to provide screen readers with important information that can be conveyed to their users.
+* UI controls, such as links, buttons, and forms, have been used to allow users to interact with the website. By browser default, they can be accessed using a keyboard or by clicking the tab key to jump from one UI control to another.
+* Form labels have been used so that screen readers can clearly label input fields for users.
+* The aria-label attribute has been used to provide a more meaningful description for icons, links, background images, and interactive elements, specifically for screen reader users.
+* Use a hover state on all buttons on the site to make it clear to the user whether they are hovering over a button.
+* Use a sensible font, font sizes, line heights, color contrast for the text content and sticking to common conventions to make the website intuitive, easy to read and follow for all users.
 
 - - -
 
@@ -270,7 +270,7 @@ HTML and CSS
 
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 * [Favicon generator](https://realfavicongenerator.net/) To create favicon.
 
@@ -282,8 +282,7 @@ HTML and CSS
 
 * [FreeConver](https://www.freeconvert.com/jpg-to-webp) To convert the images to webp format.
  
-* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
-
+* [Microsoft Bing Copilot Tools](https://www.bing.com/chat) - An AI chat that I used to check the spell and grammar of my website and README.md file.
 - - -
 
 ## Deployment & Local Development
@@ -325,13 +324,8 @@ To clone the repository:
 
 ## Testing
 
-Testing was ongoing throughout the entire project developement. Chrome developer tools were used whilst building to find and resolve any issues that came along and to ensure that everything was working correctly as expected.
-
-Chrome developer tools were also used to ensure that the project is responsive, looks good and functions as it should on all standard screen sizes.
-
-The website has been tested on following browsers; Chrome, Microsoft Edge and Safari. Devices I have tested the project on are VivoBook Asus laptop, iPhone 13, iphone 14 och Samsung Galaxy A14.
-
-Additional testing was done by a few friends on both Android and iOS mobile devices. 
+Testing was ongoing throughout the entire project development. Chrome DevTools was used while building to find and resolve any issues that arose and to ensure that everything was working correctly as expected. The same tools were also employed to verify that the project is responsive, visually appealing, and functions as intended on all standard screen sizes. 
+The website has been tested on the following browsers: Chrome, Microsoft Edge, and Safari. Additionally, I tested the project on a VivoBook Asus laptop, iPhone 13, iPhone 14, and Samsung Galaxy A14. Furthermore, a few friends conducted additional testing on both Android and iOS mobile devices. 
 
 ### Automated testing
 
@@ -343,7 +337,7 @@ Additional testing was done by a few friends on both Android and iOS mobile devi
 
 #### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+I used Lighthouse within Chrome DevTools to test the performance, accessibility, best practices, and SEO of the website. I have included the test results below.
 
 ##### Desktop Results
 
@@ -424,14 +418,14 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Solved Bugs
 
-An issue was reported after some friends with iPhone mobiles had tested the website. The text content "Vamos!" wasn't showing on the submit button on Find Player page in iphone devices. Trouble shooting for this problem was quite hard and time consuming as the submit button was performing just as expected on all screen sizes in Chrome developer tools and the issue was very specific to iPhones. I solved this issue at last by moving the styles targetting the submit button above the styles targetting the input and selection fields in style.css. 
+An issue was reported after some friends with iPhones had tested the website. The text content “Vamos!” wasn’t showing on the submit button on the Find Players page in iPhone devices. Troubleshooting for this problem was quite hard and time-consuming, as the submit button was performing just as expected on all screen sizes in Chrome DevTools. However, the issue was very specific to iPhones. I solved this issue by moving the styles targeting the submit button above the styles targeting the input and selection fields in style.css, ensuring they wouldn’t be overridden by iPhone’s default styles.
 
-Another issue occured after I created my initial README.md file on Github and not directly in my IDE workspace and commited the changes on Github. After that I was not able to add, commit or push the changes on my workspace and needed to pull to origin and get help from a Code Institute tutor to be able the merge the README.md file I had created and commited to the repository remote and from outside of the IDE.
+Another issue occurred after I created my initial README.md file on GitHub, not directly in my IDE workspace. I committed the changes on GitHub, but afterward, I couldn’t add, commit, or push the changes in my workspace. I had to pull from the origin and seek assistance from a Code Institute tutor to merge the README.md file I had created and committed to the repository remotely from outside of the IDE.
 
 
 ### Known Bugs
 
-The fields related to input type="date" and input type="time" don't follow the CSS styles intended for them when showed on iphone mobiles. After spending so much time trying to troubleshoot and find a solution to this issue, discussing it with my mentor and tutors; it seems like this might have occured due to iOS safari compatibility and the fact that input time and date are not fully supported in all browsers. I decided to accept the fact that these input fields appear slightly different when displayed on iphones for now.
+The fields related to input type="date" and input type="time" don’t adhere to the intended CSS styles when displayed on iPhones. After spending a considerable amount of time troubleshooting and seeking a solution for this issue, and discussing it with my mentor and tutors, it appears that this discrepancy may be due to iOS Safari compatibility and the fact that input types for time and date are not fully supported across all browsers. For now, I’ve decided to accept the fact that these input fields will appear slightly different when displayed on iPhones.
 
 - - -
 
@@ -451,15 +445,15 @@ For documentation and creating my README.md file I have taken inspiration from t
 
 I used this article available at google fonts in order to understand the critera for choosing a proper font type, [A checklist for choosing type](https://fonts.google.com/knowledge/choosing_type/a_checklist_for_choosing_type).
 
-All the imagery that have been used and where I have taken them from are mentioned under [Imagery](#imagery).
+All the imagery that have been used and the links I have taken them from are provided in [Imagery](#imagery) section.
 
 ### Acknowledgments
 
 I would like to acknowledge
 
-* My Code Institute mentor Jubril Akulade for reviewing my project and inspiring me to improve my website.
-* The Code Institute tutor team for being available and guiding me whenever I was too stuck troubleshooting the issues during the developement of my project.
-* My partner and my friends for taking the time and testing my website on their devices and giving me constructive feedback.
+* My Code Institute mentor, Jubril Akolade, for reviewing my project and inspiring me to improve my website.
+* The Code Institute tutor team, who were available and guided me whenever I was stuck troubleshooting issues during the development of my project.
+* My partner and friends, who took the time to test my website on their devices and provided constructive feedback.
 
 
 
