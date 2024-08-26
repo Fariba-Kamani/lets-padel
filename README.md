@@ -35,12 +35,6 @@ The way the website works is very straightforward and intuitive. All that needs 
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
-  * [AUTOMATED TESTING](#automated-testing)
-    * [W3C Validator](#w3c-validator)
-    * [Lighthouse](#lighthouse)
-  * [MANUAL TESTING](#manual-testing)
-    * [Testing User Stories](#testing-user-stories)
-    * [Full Testing](#full-testing)
   * [Solved Bugs](#solved-bugs)
   * [Known Bugs](#known-bugs)
   
@@ -81,9 +75,9 @@ The way the website works is very straightforward and intuitive. All that needs 
 
 The Let’s Padel color scheme draws inspiration from the hues commonly seen on padel courts throughout Stockholm. These colors typically include blue, black, and white. The goal was to evoke the same feeling as being on a padel court while maintaining a minimalistic design to avoid visual overload, especially for users with Autism.
 
-The header background features an image of a padel court, with the dominant color being rgb(18, 128, 223) or #1280DF. This color choice also influenced the footer color across all three web pages. To ensure readability, the menu bar font and Font Fantastic icons in the footer are white, creating contrast against the blue background.
+The header background features an image of a padel court, with the dominant color being rgb(18, 128, 223) or #1280DF. This color choice also influenced the footer color across all three web pages. To ensure readability, the menu bar links and Font Fantastic icons in the footer are white, creating contrast against the blue background.
 
- The header title stands out with a slightly different white shade, rgb(250, 250, 243) or #FAFAF3, compared to other links in the navigation bar and footer. For desktop screens, a hovering effect changes the content color of the header and footer to rgb(230, 191, 49) or #E6BF31, maintaining contrast against their backgrounds.
+The header title stands out with a slightly different white shade, rgb(250, 250, 243) or #FAFAF3, compared to other links in the navigation bar and footer. For desktop screens, a hovering effect changes the content color of the header and footer to rgb(230, 191, 49) or #E6BF31, maintaining contrast against their backgrounds.
 
 On mobile screens, navigation links appear in a drop-down menu, opening on a transparent rich black background (rgba(1, 1, 21, 0.2)). This ensures visibility against the header background image while keeping the image itself visible. For tablet and desktop screens, a fixed navigation bar beneath the header image displays the navigation links at all times. To distinguish the navbar from the header image, I used rgb(44, 36, 155) or #2C249B.
 
@@ -324,97 +318,7 @@ To clone the repository:
 
 ## Testing
 
-Testing was ongoing throughout the entire project development. Chrome DevTools was used while building to find and resolve any issues that arose and to ensure that everything was working correctly as expected. The same tools were also employed to verify that the project is responsive, visually appealing, and functions as intended on all standard screen sizes. 
-The website has been tested on the following browsers: Chrome, Microsoft Edge, and Safari. Additionally, I tested the project on a VivoBook Asus laptop, iPhone 13, iPhone 14, and Samsung Galaxy A14. Furthermore, a few friends conducted additional testing on both Android and iOS mobile devices. 
-
-### Automated testing
-
-#### W3C Validator
-
-  - HTML: No errors were returned for index.html, find-match.html and gallery.html when passing through the official [W3C validator](https://validator.w3.org/).
-
-  - CSS: No errors were found for style.css when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
-
-#### Lighthouse
-
-I used Lighthouse within Chrome DevTools to test the performance, accessibility, best practices, and SEO of the website. I have included the test results below.
-
-##### Desktop Results
-
-  * Home page
-
-    ![index.html](assets/images/lighthouse-home-desktop.png)
-  
-  * Find Players page
-
-    ![find-match.html](assets/images/lighthouse-find-players-page-desktop.png)
-  
-  * Gallery page
-
-    ![gallery.html](assets/images/lighthouse-gallery-page-desktop.png)
-
-##### Mobile Results
-
- * Home page
-
-    ![index.html](assets/images/lighthouse-home-mobile.png)
-  
-  * Find Players page
-
-    ![find-match.html](assets/images/lighthouse-find-player-page-mobile.png)
-  
-  * Gallery page
-
-    ![gallery.html](assets/images/lighthouse-gallery-page-mobile.png)
-
-### Manual testing
-
-  * **Common features on all pages**
-
-  | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-| Favicon for the browser tab | To show on the browser tab | Opened the website | It shows on the browser tab | Pass |
-| Website title | To links the user back to Home page | Clicked on link | It links back to Home page | Pass |
-| Website title hover effect | To become yellow by hover on for desktops | Hovered on link | It turns yellow | Pass |
-| Dropdown navigation menu for mobiles | To drop down when clicked on | Clicked on navigation icon | navigation menu drops down | Pass |
-| Fixed navigation bar with navigation menu on screens larger than tablets | To show on screens larger than tablets | Checked on screens larger than tablets | It shows as expected | Pass |
-| navigation links | To direct the user to related pages | Clicked on navigation links | They all direct to their related pages | Pass |
-| Showing the active page in the navigation bar with an underline | To underline the related navigation link for the active page | Clicked on the links | The related link to the active page becomes underlined | Pass |
-| Navigation links hover effect | To become yellow with a yellow underline by hover on for desktops | Hovered on links | They turn yellow and a yellow underline appears | Pass |
-| Footer link icons | To open in a seperate tab | Clicked on each icon | They all direct to their related links openning in a new tab | Pass |
-| Footer icons hover effect | To turn yellow on hover for desktops | Hovered on | They turn yellow when hovered on | Pass |
-
-* **Home page**
-
- | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-| Responsive content in About section |  The paragraphs show in columns in screens larger than tablets | Opened Home page on larger screens | Content shows in three column | Pass |
-| form link | To direct to Find Players page | Clicked on link | Find Player page opens | Pass |
-| Find Players button | To direct to Find Players page | Clicked on Find Players button | Find Players page opens | Pass |
-| Find Players button hover effect for desktops | To turn into white text and blue background when hovered on | Hovered on button | Text turns white while button background turns blue | Pass |
-| Responsive content on Padel Benefits section for screens larger than tablets | The list centers in the page | Opened on screens larger than tablets | The list centers | Pass |
-
-* **Find Players page**
-
- | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-| Submit form | To require enteries on all fields marked with asterisk | Tried submitting without enteries | Doesn't submit and requires enteries | Pass |
-| Submit form | To accept enteries only in correct format for every field | Entered wrong enterie format | Doesn't submit and requires correction | Pass |
-| Vamos! button | To submit the form successfully | Clicked on Vamos! button | Submits the form and shows all the data sent to server | Pass |
-| Fieldset border and legends display on mobiles | Hidden border and left-aligned legends | Opened on mobile | Shows as expected | Pass |
-| Fieldset border and legends display on screens larger than tablets | To displays dotted blue border and center-aligned legends | Opened on screens larger than tablets | Shows as expected | Pass |
-| Vamos! button hover effect for desktops| To turn into white text and blue background when hovered on | Hovered over the Vamos! button| Text turns white while button background turns blue | Pass |
-| Submit page | To open after submitting the form successfully | Filled in the form correctly and clicked on submit (Vamos!) button | User sends to submit page | Pass |
-
-
-* **Gallery page**
-
- | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-| Gallery images on mobiles | To show in a single column | Checked on mobile | Shows in a single column | Pass |
-| Gallery images on tablets | To show in three columns | Checked on tablet sized screens | Shows in three columns | Pass |
-| Gallery images on desktops | To show in four coulmns | Checked on desktops | Shows in four columns | Pass |
-| Gallery images hover effect for desktops | The image to come forward and become bigger | Hovered on gallery images | Each comes forward and become larger | Pass |
+Please refer to [testing](TESTING.md) file for all testing carried out.
 
 ### Solved Bugs
 

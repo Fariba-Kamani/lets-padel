@@ -1,8 +1,8 @@
 # Let's Padel -  Testing
 
-![Let's Padel shown on a variety of screen sizes]()
+![Let's Padel shown on a variety of screen sizes](assets/images/lets-padel-responsive.png)
 
-Visit the deployed site: [Let's Padel]()
+Visit the deployed site: [Let's Padel](https://fariba-kamani.github.io/lets-padel/)
 
 - - -
 
