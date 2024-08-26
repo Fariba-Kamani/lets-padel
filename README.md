@@ -203,7 +203,11 @@ All Pages on the website are responsive and have the following features:
 
   * **Hover effect for Vamos button on desktops**
 
-    ![Vamos button with hover effect](assets/images/responsive-vamos-button.png) 
+    ![Vamos button with hover effect](assets/images/responsive-vamos-button.png)
+
+  * **The submission page opens to inform the user that the form has been successfully submitted.** 
+
+    ![The submission page](assets/images/submission-page.png)
 
 
 #### The Gallery Page
@@ -347,9 +351,9 @@ I have as well used the tutor support for how to link to email and phone number 
 
 For documentation and creating my README.md file I have taken inspiration from the sample README.md file that my mentor shared with me [The Quiz Arms](https://github.com/kera-cudmore/TheQuizArms/blob/main/README.md) as well as the README.md sample available on the course for Portfolio 1: Assessments Guide Preview.
 
-I used this article available at google fonts in order to understand the critera for choosing a proper font type, [A checklist for choosing type](https://fonts.google.com/knowledge/choosing_type/a_checklist_for_choosing_type).
+I used an article available at google fonts in order to understand the critera for choosing a proper font type; [A checklist for choosing type](https://fonts.google.com/knowledge/choosing_type/a_checklist_for_choosing_type).
 
-All the imagery that have been used and the links I have taken them from are provided in [Imagery](#imagery) section.
+All the imagery I’ve used, along with the corresponding links, is provided in [Imagery](#imagery) section.
 
 ### Acknowledgments
 
