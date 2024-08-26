@@ -36,29 +36,29 @@ I used Lighthouse within Chrome DevTools to test the performance, accessibility,
 
   * Home page
 
-    ![index.html](assets/images/lighthouse-home-desktop.png)
+    ![index.html](assets/images/lighthouse-homepage-desktop.png)
   
   * Find Players page
 
-    ![find-match.html](assets/images/lighthouse-find-players-page-desktop.png)
+    ![find-match.html](assets/images/lighthouse-find-players-desktop.png)
   
   * Gallery page
 
-    ![gallery.html](assets/images/lighthouse-gallery-page-desktop.png)
+    ![gallery.html](assets/images/lighthouse-gallery-desktop.png)
 
 ##### Mobile Results
 
  * Home page
 
-    ![index.html](assets/images/lighthouse-home-mobile.png)
+    ![index.html](assets/images/lighthouse-homepage-mobile.png)
   
   * Find Players page
 
-    ![find-match.html](assets/images/lighthouse-find-player-page-mobile.png)
+    ![find-match.html](assets/images/lighthouse-find-players-mobile.png)
   
   * Gallery page
 
-    ![gallery.html](assets/images/lighthouse-gallery-page-mobile.png)
+    ![gallery.html](assets/images/lighthouse-gallery-mobile.png)
 
 ### Manual testing
 
