@@ -322,7 +322,7 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [testing](TESTING.md) file for all testing carried out.
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Solved Bugs
 
