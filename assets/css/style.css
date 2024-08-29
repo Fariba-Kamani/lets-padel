@@ -41,6 +41,7 @@ header a {
     color: inherit;
 }
 
+/* The website title */
 h1 {
     font-family: 'Exo 2', sans-serif;
     font-size: 135%;
@@ -48,6 +49,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(250, 250, 243);
+    /* Adding transparent background color for better readability */
     background-color: rgba(1, 1, 21, .2);
 }
 
@@ -75,18 +77,18 @@ nav {
     width: 100%;
     left: 0;
     padding-left: 1rem;
-    /* Navbar is hidden untill it's clicked to open*/
+    /* Navbar is hidden untill it's clicked to open */
     display: none;
-    /* Top of nav menu should start at bottom of the parent(header element)*/
+    /* Where top of nav menu starts in relation to the parent(header element) */
     top: 25%;
 }
 
-/* Nav-toggle function*/
+/* Nav-toggle function */
 #nav-toggle:checked~nav {
     display: block;
 }
 
-/*Hides the checkbox in the nav*/
+/* Hides the checkbox in the nav */
 #nav-toggle {
     display: none;
 }
@@ -99,11 +101,11 @@ nav {
 main {
     background-color: white;
     color: black;
-    /* For main element to take all surplus space and push the footer element down*/
+    /* For main element to take all surplus space and push the footer element down */
     flex: 1 0 auto;
-    /* Push the main down from underneath the nav with fixed position*/
+    /* Push the main down from underneath the nav with fixed position */
     margin-top: 120px;
-    /* Enable flex properties for child elements*/
+    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
@@ -125,10 +127,10 @@ main {
 }
 
 #section-one p {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem;
 }
 
-/* Adding section two to main on the first page */
+/* Adding the second section to main on the Home page */
 .background-color {
     background-color: aliceblue;
 }
@@ -143,14 +145,17 @@ main {
     padding: 0 1rem 1rem 1rem;
 }
 
+/* Setting the form link color in the second section of the Home page*/
 #section-two a {
     color: rgb(44, 36, 155);
 }
 
+/* Centering the input button in the Home page */
 .center-form {
     text-align: center;
 }
 
+/* Style the input button on the Home page */
 #section-two input {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -162,15 +167,18 @@ main {
     box-shadow: 0 0 3px rgb(18, 128, 223);
 }
 
+/* Adding color to icons in the third section of the Home page */
 #section-three i {
     color: rgb(18, 128, 223);
 }
 
+/* Style the list in the third section of the Home page */
 #section-three li {
     list-style-type: none;
     margin-bottom: 0.5rem;
 }
 
+/* Style the last p element in the third section of the Home page */
 #vamos {
     margin-top: 1rem;
     text-align: center;
@@ -185,7 +193,6 @@ main {
 }
 
 #find-match-form {
-    background-color: aliceblue;
     padding: 30px;
     /* Using flexbox in order to be able to center the vamos-button in the form */
     display: flex;
@@ -203,8 +210,9 @@ main {
     text-align: center;
 }
 
+/* Adding style to Vamos-button on find-match.html page */
 .submit {
-    /*centering the Vamos-button using flexbox*/
+    /*centering the Vamos-button using flexbox and align-self*/
     align-self: center;
     margin: 8px 20% 8px 20%;
     border: 2px solid rgb(18, 128, 223);
@@ -219,12 +227,13 @@ main {
     margin-left: 5%;
 }
 
-/* To show the user which fields are required */
+/* To show the user which fields are required, adds and astrisk after each label for required fields */
 .required::after {
     content: " *";
     color: rgb(18, 128, 223);
 }
 
+/* Styling the input and select fields */
 #find-match-form input,
 #find-match-form select {
     width: 90%;
@@ -241,6 +250,7 @@ main {
     padding-top: 16px;
     padding-bottom: 8px;
     margin-bottom: 16px;
+    /* Hiding the fieldsets borders in mobile screens */
     border: hidden;
 }
 
@@ -258,7 +268,7 @@ main {
 /* Solving the overflow issue on mobile screen by setting the img width to 100% */
 #images img {
     width: 100%;
-    /* Keep the alt-text readable after removing the white lines between the photos*/
+    /* Keep the alt readable after removing the white lines between the photos*/
     line-height: 1em;
 }
 
@@ -267,13 +277,12 @@ main {
     line-height: 0;
 }
 
-/* Styling the submit page */
+/* Styling the submission page */
 #submit-page {
     width: 75%;
     height: 50%;
     margin: auto auto;
     padding: 1rem;
-    background-color: aliceblue;
     text-align: center;
 
 }
@@ -312,10 +321,10 @@ footer {
     color: white;
 }
 
-/* Media query: large or landscape phones (576px and up)*/
+/* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-    /* Adding border to fieldset and aligning the legends to center for screens larger than landscape mobile*/
+    /* Displaying the fieldsets borders and aligning the legends to center for screens larger than landscape mobile */
     #find-match-form fieldset {
         border: 1px dashed rgb(18, 128, 223);
     }
@@ -324,7 +333,7 @@ footer {
         text-align: center;
     }
 
-    /*Masonry design for gallery photos*/
+    /*Masonry design for gallery photos, Show images in two columns for screens larger than 576px*/
     #images {
         column-count: 2;
         /* Remove the white gap between the columns. */
@@ -340,6 +349,7 @@ footer {
         height: 150px;
     }
 
+    /* Fixed navigation bar for screens larger than tablets */
     nav {
         display: block;
         width: 100%;
@@ -413,6 +423,7 @@ footer {
         margin-bottom: 1.5rem;
     }
 
+    /* Displaying the content of the second section in Home page in three columns for larger screens */
     .inline-block {
         display: inline-block;
         width: 32%;
@@ -440,7 +451,7 @@ footer {
         text-align: center;
     }
 
-    /*Gallery masonry design for images*/
+    /*Gallery masonry design for images to display in three columns for screens larger than tablets */
     #images {
         column-count: 3;
     }
@@ -450,34 +461,37 @@ footer {
 /* Media query: tablets and larger (992px and up)*/
 @media screen and (min-width: 992px) {
 
-    /* Add hover effect to the nav links*/
+    /* Add hover effect to the nav links */
     #menu a:hover {
         color: rgb(230, 191, 49);
         border-bottom: 2px solid rgb(230, 191, 49);
     }
 
-    /* Add hover effect to the logo*/
+    /* Add hover effect to the logo */
     #logo:hover {
         color: rgb(230, 191, 49);
     }
 
+    /* Add hover effect to the footer icons */
     #contact-ways i:hover {
         color: rgb(230, 191, 49);
     }
 
+    /* Add hover effect to the input button in the second section of the Home page */
     #section-two input:hover {
         background-color: rgb(18, 128, 223);
         color: white;
         cursor: pointer;
     }
 
+    /* Add hover effect to the submit button in the form on find-match.html page */
     .submit:hover {
         background-color: rgb(18, 128, 223);
         color: white;
         cursor: pointer;
     }
 
-    /*Gallery masonry design for images*/
+    /*Gallery masonry design for images to display in 4 columns on screens larger than 992px */
     #images {
         column-count: 4;
     }

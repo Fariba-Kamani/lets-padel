@@ -341,11 +341,11 @@ The fields related to input type="date" and input type="time" don’t adhere to 
 
 ### Code Used
 
-Throughout the entire project developement I have used the Code Institute course material for HTML and CSS. I have used the tutorials for Love Running walkthrough project represented on the course in order to set up and get started with my project properly, make a dropdown navigation menu using checkbox for mobile screens and make a masonry design for how the images display on the Gallery page.
+Throughout the entire project development, I utilized the Code Institute course material for HTML and CSS. I followed the tutorials for the Love Running walkthrough project to set up and start my project properly, make a dropdown navigation menu using checkbox for mobile screens, and make a masonry design for how the images display on the Gallery page depending on the screen size. Additionally, I incorporated ideas from the Coders Coffeehouse walkthrough project to make the content in the second section of the Home page responsive using inline-block display property.
 
 I have used [Stack Overflow](stackoverflow.com) to get some ideas for how to use regular expression in order to define patterns for the form input validation of input type="text" and input type="tel".
 
-I have as well used the tutor support for how to link to email and phone number in the footer in a way that the user will be linked to user's email client with a specified recipient by using the code <a href="mailto:someone@example.com"></a> and trigger a phone call (for mobiles) by clicking the phone icon link in the footer, using the code <a href="tel:phone-number"></a>. 
+I have also used the tutor support to learn how to link to an email and phone number in the footer. This allows users to open their email client with a specified recipient or trigger a phone call (on mobiles) by clicking the phone icon link in the footer.
 
 ### Content
 
