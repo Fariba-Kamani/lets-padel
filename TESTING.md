@@ -24,7 +24,7 @@ The website has been tested on the following browsers: Chrome, Microsoft Edge, a
 
 #### W3C Validator
 
-  - HTML: No errors were returned for index.html, find-match.html and gallery.html when passing through the official [W3C validator](https://validator.w3.org/).
+  - HTML: No errors were returned for index.html, find-match.html, gallery.html, and submit.html when passing through the official [W3C validator](https://validator.w3.org/).
 
   - CSS: No errors were found for style.css when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
 

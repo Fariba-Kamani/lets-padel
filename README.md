@@ -4,9 +4,9 @@
 
 Visit the deployed site: [Let's Padel](https://fariba-kamani.github.io/lets-padel/)
 
-Let's Padel is a growing community for everyone who loves playing Padel regardless of gender, age, or skill level. As a padel player myself I usually struggle to find other people to play with when I have spare time and can play. I would have played Padel more often if I had access to more Padel players beyond those in my contact list. I thought this could as well be one of the obstacles for other Padel players like me out there. By creating Let's Padel I am trying to address this issue and help facilitate for Padel players to find and connect and hopefully be able to play Padel as often as they desire.
+Let’s Padel is a growing community for everyone who loves playing padel, regardless of gender, age, or skill level. As a padel player myself, I often struggle to find others to play with during my spare time. I would play padel more frequently if I had access to more players beyond those in my contact list. I realized this might be a common obstacle for other padel enthusiasts as well. By creating Let’s Padel, I aim to address this issue and help padel players find and connect with each other, so they can play as often as they desire.
 
-The way the website works is very straightforward and intuitive. All that needs to be done is for the player to fill in a form, informing us about when and where she/he wants to play, the skill level the player has, and how many players are needed to be able to play a match. We will then try to find other players with the same preferences. Once we have identified all the necessary players, we will reach out to them using the contact details provided in the submitted form.
+The website is very straightforward and intuitive. Players simply need to fill out a form, indicating when and where they want to play, their skill level, and how many players are needed for a match. We will then try to find other players with the same preferences. Once we have identified all the necessary players, we will reach out to them using the contact details provided in the form.
 
 ## CONTENTS
 
@@ -20,7 +20,7 @@ The way the website works is very straightforward and intuitive. All that needs 
   * [Wireframes](#wireframes)
   * [Features](#features)
     * [The Home Page](#the-home-page)
-    * [The Players Page](#the-find-players-page)
+    * [The Find Players Page](#the-find-players-page)
     * [The Gallery Page](#the-gallery-page)
   * [Accessibility](#accessibility)
 
@@ -51,21 +51,21 @@ The way the website works is very straightforward and intuitive. All that needs 
 
 
 #### First Time Visitor Goals
-* I would like to try Padel or play Padel occasionally, and I want to find people to play with.
+* I would like to try padel or play padel occasionally, and I want to find people to play with.
 * I have a different schedule from my padel friends, so I’m looking for other padel players who have a similar schedule to mine.
 * I want the website to be intuitive and easy to use.
 * I want the website to be responsive and compatible with my device.
 
 #### Returning Visitor Goals
 
-* I want to be able to play Padel more frequently, and I want to find players on a more regular basis.
+* I want to be able to play padel more frequently, and I want to find players on a more regular basis.
 * Even if I spontaneously decide to play padel, I still want to know that there is a high chance I could find other players to play with by using the website.
 
 #### Frequent Visitor Goals
 
 * I want to be able to see what matches other players have requested and be able to independently join their matches.
-* I want to be able to have an account on the website and be able to stay connected to my Padel friends via the website.
-* I want to be able to independently upload pictures taken from my Padel experiences on the Gallery page.
+* I want to be able to have an account on the website and be able to stay connected to my padel friends via the website.
+* I want to be able to independently upload pictures taken from my padel experiences on the Gallery page.
 
 - - -
 
@@ -73,17 +73,17 @@ The way the website works is very straightforward and intuitive. All that needs 
 
 ### Colour Scheme
 
-The Let’s Padel color scheme draws inspiration from the hues commonly seen on padel courts throughout Stockholm. These colors typically include blue, black, and white. The goal was to evoke the same feeling as being on a padel court while maintaining a minimalistic design to avoid visual overload, especially for users with Autism.
+The Let’s Padel colour scheme draws inspiration from the hues commonly seen on padel courts throughout Stockholm. These colours typically include blue, black, and white. The goal was to evoke the same feeling as being on a padel court while maintaining a minimalistic design to avoid visual overload, especially for users with Autism.
 
-The header background features an image of a padel court, with the dominant color being rgb(18, 128, 223) or #1280DF. This color choice also influenced the footer color across all three web pages. To ensure readability, the menu bar links and Font Fantastic icons in the footer are white, creating contrast against the blue background.
+The header background features an image of a padel court, with the dominant colour being rgb(18, 128, 223) or #1280DF. This colour choice also influenced the footer colour across all three web pages. To ensure readability, the menu bar links and Font Fantastic icons in the footer are white, creating contrast against the blue background.
 
-The header title stands out with a slightly different white shade, rgb(250, 250, 243) or #FAFAF3, compared to other links in the navigation bar and footer. For desktop screens, a hovering effect changes the content color of the header and footer to rgb(230, 191, 49) or #E6BF31, maintaining contrast against their backgrounds.
+The header title stands out with a slightly different white shade, rgb(250, 250, 243) or #FAFAF3, compared to other links in the navigation bar and footer. For desktop screens, a hovering effect changes the content colour of the header and footer to rgb(230, 191, 49) or #E6BF31, maintaining contrast against their backgrounds.
 
 On mobile screens, navigation links appear in a drop-down menu, opening on a transparent rich black background (rgba(1, 1, 21, 0.2)). This ensures visibility against the header background image while keeping the image itself visible. For tablet and desktop screens, a fixed navigation bar beneath the header image displays the navigation links at all times. To distinguish the navbar from the header image, I used rgb(44, 36, 155) or #2C249B.
 
 The body sections alternate between white and Aliceblue backgrounds, aiding users in understanding where one section ends and another begins. Black is used for the font colour on the body to ensure contrast and better visibility.
 
-Lastly, button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) share the same blue color as the header image and footer, which is rgb(18, 128, 223). This design creates cohesion with the rest of the website’s color scheme while remaining noticeable to users.
+Lastly, button borders (on all screen sizes) and the fieldset borders (on tablet and desktop screens) share the same blue colour as the header image and footer, which is rgb(18, 128, 223). This design creates cohesion with the rest of the website’s colour scheme while remaining noticeable to users.
 
 ![The Let's Padel Colour Scheme](assets/images/lets-padel-color-scheme.png)
 
@@ -91,7 +91,7 @@ Lastly, button borders (on all screen sizes) and the fieldset borders (on tablet
 
 Google Fonts was used to import the chosen fonts for use on the site.
 
-![Exo 2](assets/images/Title-font.png)
+![Exo 2](assets/images/title-font.png)
 
 * For the page title, I have used the Google font Exo 2, which is described as a contemporary geometric sans serif typeface by [Google Fonts](https://fonts.google.com/specimen/Exo+2/about?preview.text=LET%27S%20PADEL&preview.size=42). I chose this font for the title because it looks playful and fun, which goes well with the agenda of the website.
 
@@ -111,10 +111,10 @@ You can see the URLs from which the images on the Gallery page are taken, in the
 
 * https://thumbs.dreamstime.com/b/serious-middle-aged-latin-man-tennis-player-playing-padel-friendly-match-outdoor-court-spring-focused-hitting-ball-267446063.jpg
 * https://www.vanguardlawmag.com/wp-content/uploads/2024/04/IMG_5960.jpg
-* https://www.lta.org.uk/49d339/siteassets/play/padel/image/woman-playing-padel2.jpg?w=3200"
+* https://www.lta.org.uk/49d339/siteassets/play/padel/image/woman-playing-padel2.jpg?w=3200
 * https://tennis-uni.com/wp-content/uploads/padel-tennisspieler-netz-400x267.jpeg
-* https://media.istockphoto.com/id/1413274533/photo/four-senior-friends-enjoying-together-while-playing-padel.jpg?s=612x612&w=0&k=20&c=ZuI09DB7woiuqmYD-J5dlzg1ID5VOSoh6m_7gFII4_E="
-* https://thepeninsulaqatar.com/get/maximage/20240303_1709445598-694.jpg?1709445599"
+* https://media.istockphoto.com/id/1413274533/photo/four-senior-friends-enjoying-together-while-playing-padel.jpg?s=612x612&w=0&k=20&c=ZuI09DB7woiuqmYD-J5dlzg1ID5VOSoh6m_7gFII4_E=
+* https://thepeninsulaqatar.com/get/maximage/20240303_1709445598-694.jpg?1709445599
 * https://thepadelstate.com/wp-content/uploads/2024/02/Sofia-Arujo-1021x500.jpg
 * https://rutinasdeportivas.es/medios/2017/01/Quieres-saber-cu%C3%A1les-son-los-beneficios-del-p%C3%A1del-y-porque-es-importante-practicarlo-parejas.jpg
 
@@ -122,7 +122,7 @@ You can see the URLs from which the images on the Gallery page are taken, in the
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-| Screen size | Home | Find a match | Gallery |
+| Screen size | Home | Find Players | Gallery |
 | :--- | :--- | :--- | :--- |
 | mobile | ![home page for mobile](assets/images/wireframe-lets-padel-homepage-mobile.png) | ![Find Players page for mobile](assets/images/wireframe-lets-padel-find-a-matchpage-mobile.png) | ![gallery page for mobile](assets/images/wireframe-lets-padel-gallerypage-mobile.png) |
 | tablet | ![home page for tablet](assets/images/wireframe-lets-padel-homepage-ipod.png) | ![find Players page for tablet](assets/images/wireframe-lets-padel-find-a-matchpage-ipod.png) | ![gallery page for tablet](assets/images/wireframe-lets-padel-gallerypage-ipod.png) |
@@ -139,26 +139,26 @@ All Pages on the website are responsive and have the following features:
 
   ![favicon](assets/images/favicon-tab.png)
 
-* The title of the site at the top of every page. This title also acts as a link back to the home page, and it turns into a saffron yellow color when hovered over on desktop screens.
+* The title of the site at the top of every page. This title also acts as a link back to the home page, and it turns into a saffron yellow colour when hovered over on desktop screens.
 
   ![The Let's Padel Title](assets/images/title-link-to-homepage.png)
   ![The Let's Padel Title responsive](assets/images/title-hover-desktop.png)
 
-* **Drop down navigation menu for mobile screens**  
+* Drop down navigation menu for mobile screens  
 
   ![drop down navigation menu](assets/images/dropdown-navigation-menu.png)  
 
-  * **Underlining the active page in the navigation menu**
-  * **Navigation menu for screens larger than tablets**
+  * Underlining the active page in the navigation menu
+  * Navigation menu for screens larger than tablets
   
     ![navigation menu for screens larger than tablets with underlined active page](assets/images/responsive-nav-menu-active-page.png)
 
-  * **Navigation links turn into Saffron yellow color with an underline of the same color when hovered over on desktop screens** 
+  * Navigation links turn into Saffron yellow color with an underline of the same colour when hovered over on desktop screens 
 
     ![navigation menu links on hover](assets/images/responsive-nav-links-by-hover.png)
   
 
-* The footer of the site, located at the bottom of every page, features links to the website’s Facebook, Instagram, email, and phone. These links are displayed using Font Awesome icons. When hovered over on desktop screens, each icon changes to a Saffron yellow color.
+* The footer of the site, located at the bottom of every page, features links to the website’s Facebook, Instagram, email, and phone. These links are displayed using Font Awesome icons. When hovered over on desktop screens, each icon changes to a Saffron yellow colour.
 
   ![footer](assets/images/footer.png)
 
@@ -170,42 +170,42 @@ All Pages on the website are responsive and have the following features:
 
 ![Responsive home page](assets/images/homepage-responsive.png)
 
-* **The landing section**
+* The landing section
 
   ![Landing section](assets/images/landing-section.png)
 
-* **The second section; about the website, its purpose, and how it works.**
-  * **The ‘Find Players’ button, as well as the word ‘form,’ sends users to the Find Players page.**
+* The second section; about the website, its purpose, and how it works.
+  * The ‘Find Players’ button, as well as the word ‘form,’ sends users to the Find Players page.
 
     ![About section](assets/images/about-section.png)
 
-  * **Responsive button that turns blue with white text when hovered over on desktops**
-  * **Responsive content. The paragraphs show in columns for screens larger than tablets**
+  * Responsive button that turns blue with white text when hovered over on desktops
+  * Responsive content. The paragraphs show in three columns for screens larger than tablets
 
     ![About section responsive](assets/images/second-section-responsive.png)
 
-* **Benefits of padel section with font fantastic intuitive icons and responsive content**
+* Benefits of padel section with font fantastic intuitive icons and responsive content
 ![benefits of padel section](assets/images/benefit-section.png)
 ![benefits of padel on screens larger than tablets](assets/images/benefits-responsive.png)
 
 #### The Find Players Page
 
-![the Find Players page responsive](assets/images/find-players-responsive.png)
+![the Find Players page responsive](assets/images/find-players-page-responsive.png)
 
-  * **Page title and quick instructions for the users**
+  * Page title and quick instructions for the users
 
-    ![form page title and user instructions](assets/images/form-title-section.png)
+    ![form page title and user instructions](assets/images/find-players-page-title.png)
 
-  * **The submit form with two fieldsets and the Vamos button for submitting the form**
-  * **Added fieldset border for more visible sectioning on screens larger than tablets**
+  * The submit form with two fieldsets and the Vamos button for submitting the form
+  * Added fieldset border for more visible sectioning on screens larger than tablets
 
     ![The submit form](assets/images/submit-form.png)
 
-  * **Hover effect for Vamos button on desktops**
+  * Hover effect for Vamos button on desktops
 
     ![Vamos button with hover effect](assets/images/responsive-vamos-button.png)
 
-  * **The submission page opens to inform the user that the form has been successfully submitted.** 
+  * The submission page opens to inform the user that the form has been successfully submitted. 
 
     ![The submission page](assets/images/submission-page.png)
 
@@ -214,12 +214,13 @@ All Pages on the website are responsive and have the following features:
 
 ![the Gallery page responsive](assets/images/gallery-page-responsive.png)
 
-  * **The page title to let the users know that they can share their photos**
+  * The page title to let the users know that they can share their photos
 
     ![gallery page title](assets/images/gallery-page-title.png)
 
-  * **Masonry design for displaying the Gallery photos**
-  * **Added hover effect to gallery images to make them bigger when hovered over**
+  * Masonry design for displaying the gallery photos; images display in 1-4 columns depending on the screen size.
+
+  * Added hover effect to gallery images to make them bigger when hovered over
 
     ![gallery images hovered on for desktop](assets/images/hovered-on-gallery-img-desktop.png)
 
